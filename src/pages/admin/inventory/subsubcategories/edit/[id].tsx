@@ -291,7 +291,7 @@ export default function EditSubSubcategory() {
                 </div>
 
                 <div className="mb-3">
-                  <label className="form-label">Banner Image</label>
+                  <label className="form-label">Banner Image <small className="text-muted ms-2" title="Recommended image size: 400×400">(Recommended: 400×400)</small></label>
                   <input
                     type="file"
                     name="banner"

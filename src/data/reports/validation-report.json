@@ -1,0 +1,23 @@
+{
+  "source": "C:\\ecommercepro\\my-nextjs-app\\src\\data\\products.fixed.canonical.csv",
+  "totalRows": 2880,
+  "missingRequired": [],
+  "skuDuplicates": [],
+  "slugDuplicates": [],
+  "priceErrors": [],
+  "stockErrors": [],
+  "statusValues": {
+    "active": 2880
+  },
+  "deliveryTypes": {
+    "same_day": 2880
+  },
+  "variantErrors": [],
+  "imageMissing": {
+    "main": [],
+    "gallery": []
+  },
+  "slugFormatIssues": [],
+  "booleanIssues": [],
+  "sampleRowsWithProblems": []
+}

@@ -188,7 +188,7 @@ const CmsPagesList: React.FC = () => {
                       {page.author || 'N/A'}
                     </td>
                     <td>
-                      <span className={`badge ${(page.is_published ?? page.isPublished) ? 'bg-success' : 'bg-warning'}`}>
+                      <span className={`badge ${(page.is_published ?? page.isPublished) ? 'bg-success' : 'bg-dark text-white'}`}>
                         {(page.is_published ?? page.isPublished) ? 'Published' : 'Draft'}
                       </span>
                     </td>

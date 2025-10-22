@@ -1,5 +1,6 @@
 import AdminLayout from '../../../layouts/AdminLayout';
 import { useState, useEffect } from 'react';
+import { FaToggleOn, FaToggleOff, FaTrash, FaEdit } from 'react-icons/fa';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 
@@ -8,14 +9,12 @@ interface Subcategory {
   name: string;
   category_id: string;
   categoryName?: string;
-  icon?: string;
   banner?: string;
   status: boolean;
   created_at: string;
   category?: {
     id: string;
     name: string;
-    icon?: string;
   };
 }
 
@@ -56,7 +55,6 @@ export default function Subcategories() {
 
   const handleDeleteSubcategory = async (id: string) => {
     if (!confirm('Are you sure you want to delete this subcategory?')) return;
-    
     try {
       const token = localStorage.getItem('access_token');
       const response = await fetch(`http://localhost:8000/api/admin/subcategory/${id}`, {
@@ -69,7 +67,6 @@ export default function Subcategories() {
           'Accept': 'application/json',
         },
       });
-      
       if (response.ok) {
         toast.success('Subcategory deleted successfully');
         fetchSubcategories(); // Refresh the list
@@ -78,6 +75,31 @@ export default function Subcategories() {
       }
     } catch (error) {
       toast.error('Error deleting subcategory');
+    }
+  };
+
+  const handleToggleStatus = async (id: string, newStatus: boolean) => {
+    try {
+      const token = localStorage.getItem('access_token');
+      const response = await fetch(`http://localhost:8000/api/admin/subcategory/status/${id}`, {
+        method: 'PUT',
+        mode: 'cors',
+        credentials: 'include',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({ status: newStatus }),
+      });
+      if (response.ok) {
+        toast.success('Subcategory status updated');
+        fetchSubcategories();
+      } else {
+        toast.error('Failed to update status');
+      }
+    } catch (error) {
+      toast.error('Error updating status');
     }
   };
 
@@ -115,7 +137,6 @@ export default function Subcategories() {
                       <tr>
                         <th>Name</th>
                         <th>Category</th>
-                        <th>Icon</th>
                         <th>Banner</th>
                         <th>Status</th>
                         <th>Created</th>
@@ -127,15 +148,6 @@ export default function Subcategories() {
                         <tr key={subcategory.id}>
                           <td className="fw-semibold">{subcategory.name}</td>
                           <td>{subcategory.category?.name || subcategory.categoryName || '-'}</td>
-                          <td>
-                            {subcategory.icon ? (
-                              <span style={{ fontSize: '1.5rem' }}>{subcategory.icon}</span>
-                            ) : (
-                              <div className="bg-light rounded d-flex align-items-center justify-content-center" style={{ width: '40px', height: '40px' }}>
-                                📂
-                              </div>
-                            )}
-                          </td>
                           <td>
                             {subcategory.banner ? (
                               <img 
@@ -155,15 +167,27 @@ export default function Subcategories() {
                           </td>
                           <td>{new Date(subcategory.created_at).toLocaleDateString()}</td>
                           <td>
-                            <div className="btn-group btn-group-sm">
-                              <Link href={`/admin/inventory/subcategories/edit/${subcategory.id}`} className="btn btn-outline-primary">
-                                <i className="bi bi-pencil"></i>
+                            <div className="d-flex gap-2">
+                              <Link href={`/admin/inventory/subcategories/edit/${subcategory.id}`} className="btn btn-outline-primary btn-sm">
+                                <FaEdit />
                               </Link>
+                              <button
+                                type="button"
+                                title="Toggle Status"
+                                className="btn btn-outline-warning btn-sm"
+                                onClick={() => handleToggleStatus(subcategory.id, !subcategory.status)}
+                              >
+                                {subcategory.status ? (
+                                  <FaToggleOn style={{ color: 'green' }} />
+                                ) : (
+                                  <FaToggleOff style={{ color: 'red' }} />
+                                )}
+                              </button>
                               <button 
                                 onClick={() => handleDeleteSubcategory(subcategory.id)}
-                                className="btn btn-outline-danger"
+                                className="btn btn-outline-danger btn-sm"
                               >
-                                <i className="bi bi-trash"></i>
+                                <FaTrash />
                               </button>
                             </div>
                           </td>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 const menu = [
@@ -10,6 +10,8 @@ const menu = [
     { label: 'Sub-Subcategories', path: '/admin/inventory/subsubcategories' },
     { label: 'Products', path: '/admin/inventory/products' },
   ] },
+  { label: 'Banner Management', icon: '🎨', path: '/admin/banner-management' },
+  { label: 'Excel Upload', icon: '📊', path: '/admin/excel-upload' },
   { label: 'User Management', icon: '👥', children: [
     { label: 'Users', path: '/admin/users' },
     { label: 'Admin Users', path: '/admin/user-management/admin-users' },
@@ -31,6 +33,16 @@ const menu = [
 ];
 
 const Sidebar: React.FC = () => {
+  const [openDropdowns, setOpenDropdowns] = useState<number[]>([]);
+
+  const toggleDropdown = (index: number) => {
+    setOpenDropdowns(prev => 
+      prev.includes(index) 
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
+  };
+
   return (
     <aside className="bg-dark text-light shadow-lg d-flex flex-column position-fixed top-0 start-0" style={{ width: '260px', height: '100vh', overflowY: 'auto', zIndex: 1040 }}>
       <div className="d-flex align-items-center justify-content-between px-4 py-3 border-bottom border-secondary">
@@ -40,34 +52,39 @@ const Sidebar: React.FC = () => {
         {menu.map((item, idx) => (
           <div key={idx} className="mb-2">
             {!item.children ? (
-              <Link href={item.path || '#'} className="d-flex align-items-center gap-2 px-3 py-2 rounded bg-dark text-light fw-semibold text-decoration-none hover-bg-primary">
+              <Link href={item.path || '#'} className="d-flex align-items-center gap-2 px-3 py-2 rounded text-light fw-semibold text-decoration-none sidebar-main-item">
                 <span>{item.icon}</span>
                 <span>{item.label}</span>
               </Link>
             ) : (
-              <div className="accordion" id={`sidebar-accordion-${idx}`}> 
-                <div className="accordion-item bg-dark border-0">
-                  <h2 className="accordion-header" id={`heading-${idx}`}> 
-                    <button className="accordion-button collapsed bg-dark text-light px-3 py-2 d-flex align-items-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse-${idx}`} aria-expanded="false" aria-controls={`collapse-${idx}`}> 
-                      <span className="d-flex align-items-center">
-                        <span className="me-2">{item.icon}</span>
-                        {item.label}
-                      </span>
-                      <span className="ms-auto">
-                        <i className="bi bi-chevron-down"></i>
-                      </span>
-                    </button>
-                  </h2>
-                  <div id={`collapse-${idx}`} className="accordion-collapse collapse" aria-labelledby={`heading-${idx}`} data-bs-parent={`#sidebar-accordion-${idx}`}>
-                    <div className="accordion-body ps-4 py-2">
-                      {item.children.map((child, cidx) => (
-                        <Link key={cidx} href={child.path} className="d-block px-2 py-1 rounded text-light text-decoration-none hover-bg-secondary small">
-                          {child.label}
-                        </Link>
-                      ))}
-                    </div>
+              <div>
+                <button 
+                  className="w-100 d-flex align-items-center justify-content-between px-3 py-2 text-light border-0 rounded fw-semibold text-start sidebar-dropdown-button"
+                  onClick={() => toggleDropdown(idx)}
+                  style={{ cursor: 'pointer', backgroundColor: 'transparent' }}
+                >
+                  <span className="d-flex align-items-center gap-2">
+                    <span>{item.icon}</span>
+                    <span>{item.label}</span>
+                  </span>
+                  <span className={`transition-transform ${openDropdowns.includes(idx) ? 'rotate-180' : ''}`}>
+                    ▼
+                  </span>
+                </button>
+                {openDropdowns.includes(idx) && (
+                  <div className="ps-4 py-2">
+                    {item.children.map((child, cidx) => (
+                      <Link 
+                        key={cidx} 
+                        href={child.path} 
+                        className="d-block px-2 py-2 rounded text-light text-decoration-none sidebar-dropdown-item small mb-1"
+                        style={{ fontSize: '0.9rem' }}
+                      >
+                        • {child.label}
+                      </Link>
+                    ))}
                   </div>
-                </div>
+                )}
               </div>
             )}
           </div>

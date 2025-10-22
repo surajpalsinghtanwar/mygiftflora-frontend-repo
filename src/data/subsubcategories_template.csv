@@ -1,0 +1,361 @@
+category_name,subcategory_name,name,status,meta_title,meta_description
+Cakes,Cakes BYTYPE,Type 1,active,Type 1,Type 1
+Cakes,Cakes BYTYPE,Type 2,active,Type 2,Type 2
+Cakes,Cakes BYTYPE,Type 3,active,Type 3,Type 3
+Cakes,Cakes BYTYPE,Type 4,active,Type 4,Type 4
+Cakes,Cakes BYTYPE,Type 5,active,Type 5,Type 5
+Cakes,Cakes BYFLAVOR,Flavor 1,active,Flavor 1,Flavor 1
+Cakes,Cakes BYFLAVOR,Flavor 2,active,Flavor 2,Flavor 2
+Cakes,Cakes BYFLAVOR,Flavor 3,active,Flavor 3,Flavor 3
+Cakes,Cakes BYFLAVOR,Flavor 4,active,Flavor 4,Flavor 4
+Cakes,Cakes BYFLAVOR,Flavor 5,active,Flavor 5,Flavor 5
+Cakes,Cakes BYTHEME,Theme 1,active,Theme 1,Theme 1
+Cakes,Cakes BYTHEME,Theme 2,active,Theme 2,Theme 2
+Cakes,Cakes BYTHEME,Theme 3,active,Theme 3,Theme 3
+Cakes,Cakes BYTHEME,Theme 4,active,Theme 4,Theme 4
+Cakes,Cakes BYTHEME,Theme 5,active,Theme 5,Theme 5
+Cakes,Cakes BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Cakes,Cakes BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Cakes,Cakes BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Cakes,Cakes BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Cakes,Cakes BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Cakes,Cakes COMBO,Combo 1,active,Combo 1,Combo 1
+Cakes,Cakes COMBO,Combo 2,active,Combo 2,Combo 2
+Cakes,Cakes COMBO,Combo 3,active,Combo 3,Combo 3
+Cakes,Cakes COMBO,Combo 4,active,Combo 4,Combo 4
+Cakes,Cakes COMBO,Combo 5,active,Combo 5,Combo 5
+Flowers,Flowers BYTYPE,Type 1,active,Type 1,Type 1
+Flowers,Flowers BYTYPE,Type 2,active,Type 2,Type 2
+Flowers,Flowers BYTYPE,Type 3,active,Type 3,Type 3
+Flowers,Flowers BYTYPE,Type 4,active,Type 4,Type 4
+Flowers,Flowers BYTYPE,Type 5,active,Type 5,Type 5
+Flowers,Flowers BYCOLOR,Color 1,active,Color 1,Color 1
+Flowers,Flowers BYCOLOR,Color 2,active,Color 2,Color 2
+Flowers,Flowers BYCOLOR,Color 3,active,Color 3,Color 3
+Flowers,Flowers BYCOLOR,Color 4,active,Color 4,Color 4
+Flowers,Flowers BYCOLOR,Color 5,active,Color 5,Color 5
+Flowers,Flowers BYTHEME,Theme 1,active,Theme 1,Theme 1
+Flowers,Flowers BYTHEME,Theme 2,active,Theme 2,Theme 2
+Flowers,Flowers BYTHEME,Theme 3,active,Theme 3,Theme 3
+Flowers,Flowers BYTHEME,Theme 4,active,Theme 4,Theme 4
+Flowers,Flowers BYTHEME,Theme 5,active,Theme 5,Theme 5
+Flowers,Flowers BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Flowers,Flowers BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Flowers,Flowers BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Flowers,Flowers BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Flowers,Flowers BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Flowers,Flowers COMBO,Combo 1,active,Combo 1,Combo 1
+Flowers,Flowers COMBO,Combo 2,active,Combo 2,Combo 2
+Flowers,Flowers COMBO,Combo 3,active,Combo 3,Combo 3
+Flowers,Flowers COMBO,Combo 4,active,Combo 4,Combo 4
+Flowers,Flowers COMBO,Combo 5,active,Combo 5,Combo 5
+Gifts,Gifts BYTYPE,Type 1,active,Type 1,Type 1
+Gifts,Gifts BYTYPE,Type 2,active,Type 2,Type 2
+Gifts,Gifts BYTYPE,Type 3,active,Type 3,Type 3
+Gifts,Gifts BYTYPE,Type 4,active,Type 4,Type 4
+Gifts,Gifts BYTYPE,Type 5,active,Type 5,Type 5
+Gifts,Gifts BYBRAND,Brand 1,active,Brand 1,Brand 1
+Gifts,Gifts BYBRAND,Brand 2,active,Brand 2,Brand 2
+Gifts,Gifts BYBRAND,Brand 3,active,Brand 3,Brand 3
+Gifts,Gifts BYBRAND,Brand 4,active,Brand 4,Brand 4
+Gifts,Gifts BYBRAND,Brand 5,active,Brand 5,Brand 5
+Gifts,Gifts BYTHEME,Theme 1,active,Theme 1,Theme 1
+Gifts,Gifts BYTHEME,Theme 2,active,Theme 2,Theme 2
+Gifts,Gifts BYTHEME,Theme 3,active,Theme 3,Theme 3
+Gifts,Gifts BYTHEME,Theme 4,active,Theme 4,Theme 4
+Gifts,Gifts BYTHEME,Theme 5,active,Theme 5,Theme 5
+Gifts,Gifts BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Gifts,Gifts BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Gifts,Gifts BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Gifts,Gifts BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Gifts,Gifts BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Gifts,Gifts COMBO,Combo 1,active,Combo 1,Combo 1
+Gifts,Gifts COMBO,Combo 2,active,Combo 2,Combo 2
+Gifts,Gifts COMBO,Combo 3,active,Combo 3,Combo 3
+Gifts,Gifts COMBO,Combo 4,active,Combo 4,Combo 4
+Gifts,Gifts COMBO,Combo 5,active,Combo 5,Combo 5
+Plants,Plants BYTYPE,Type 1,active,Type 1,Type 1
+Plants,Plants BYTYPE,Type 2,active,Type 2,Type 2
+Plants,Plants BYTYPE,Type 3,active,Type 3,Type 3
+Plants,Plants BYTYPE,Type 4,active,Type 4,Type 4
+Plants,Plants BYTYPE,Type 5,active,Type 5,Type 5
+Plants,Plants BYVARIETY,Variety 1,active,Variety 1,Variety 1
+Plants,Plants BYVARIETY,Variety 2,active,Variety 2,Variety 2
+Plants,Plants BYVARIETY,Variety 3,active,Variety 3,Variety 3
+Plants,Plants BYVARIETY,Variety 4,active,Variety 4,Variety 4
+Plants,Plants BYVARIETY,Variety 5,active,Variety 5,Variety 5
+Plants,Plants BYTHEME,Theme 1,active,Theme 1,Theme 1
+Plants,Plants BYTHEME,Theme 2,active,Theme 2,Theme 2
+Plants,Plants BYTHEME,Theme 3,active,Theme 3,Theme 3
+Plants,Plants BYTHEME,Theme 4,active,Theme 4,Theme 4
+Plants,Plants BYTHEME,Theme 5,active,Theme 5,Theme 5
+Plants,Plants BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Plants,Plants BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Plants,Plants BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Plants,Plants BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Plants,Plants BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Plants,Plants COMBO,Combo 1,active,Combo 1,Combo 1
+Plants,Plants COMBO,Combo 2,active,Combo 2,Combo 2
+Plants,Plants COMBO,Combo 3,active,Combo 3,Combo 3
+Plants,Plants COMBO,Combo 4,active,Combo 4,Combo 4
+Plants,Plants COMBO,Combo 5,active,Combo 5,Combo 5
+Sweets,Sweets BYTYPE,Type 1,active,Type 1,Type 1
+Sweets,Sweets BYTYPE,Type 2,active,Type 2,Type 2
+Sweets,Sweets BYTYPE,Type 3,active,Type 3,Type 3
+Sweets,Sweets BYTYPE,Type 4,active,Type 4,Type 4
+Sweets,Sweets BYTYPE,Type 5,active,Type 5,Type 5
+Sweets,Sweets BYFLAVOR,Flavor 1,active,Flavor 1,Flavor 1
+Sweets,Sweets BYFLAVOR,Flavor 2,active,Flavor 2,Flavor 2
+Sweets,Sweets BYFLAVOR,Flavor 3,active,Flavor 3,Flavor 3
+Sweets,Sweets BYFLAVOR,Flavor 4,active,Flavor 4,Flavor 4
+Sweets,Sweets BYFLAVOR,Flavor 5,active,Flavor 5,Flavor 5
+Sweets,Sweets BYTHEME,Theme 1,active,Theme 1,Theme 1
+Sweets,Sweets BYTHEME,Theme 2,active,Theme 2,Theme 2
+Sweets,Sweets BYTHEME,Theme 3,active,Theme 3,Theme 3
+Sweets,Sweets BYTHEME,Theme 4,active,Theme 4,Theme 4
+Sweets,Sweets BYTHEME,Theme 5,active,Theme 5,Theme 5
+Sweets,Sweets BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Sweets,Sweets BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Sweets,Sweets BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Sweets,Sweets BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Sweets,Sweets BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Sweets,Sweets COMBO,Combo 1,active,Combo 1,Combo 1
+Sweets,Sweets COMBO,Combo 2,active,Combo 2,Combo 2
+Sweets,Sweets COMBO,Combo 3,active,Combo 3,Combo 3
+Sweets,Sweets COMBO,Combo 4,active,Combo 4,Combo 4
+Sweets,Sweets COMBO,Combo 5,active,Combo 5,Combo 5
+Combos,Combos BYTYPE,Type 1,active,Type 1,Type 1
+Combos,Combos BYTYPE,Type 2,active,Type 2,Type 2
+Combos,Combos BYTYPE,Type 3,active,Type 3,Type 3
+Combos,Combos BYTYPE,Type 4,active,Type 4,Type 4
+Combos,Combos BYTYPE,Type 5,active,Type 5,Type 5
+Combos,Combos BYBRAND,Brand 1,active,Brand 1,Brand 1
+Combos,Combos BYBRAND,Brand 2,active,Brand 2,Brand 2
+Combos,Combos BYBRAND,Brand 3,active,Brand 3,Brand 3
+Combos,Combos BYBRAND,Brand 4,active,Brand 4,Brand 4
+Combos,Combos BYBRAND,Brand 5,active,Brand 5,Brand 5
+Combos,Combos BYTHEME,Theme 1,active,Theme 1,Theme 1
+Combos,Combos BYTHEME,Theme 2,active,Theme 2,Theme 2
+Combos,Combos BYTHEME,Theme 3,active,Theme 3,Theme 3
+Combos,Combos BYTHEME,Theme 4,active,Theme 4,Theme 4
+Combos,Combos BYTHEME,Theme 5,active,Theme 5,Theme 5
+Combos,Combos BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Combos,Combos BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Combos,Combos BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Combos,Combos BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Combos,Combos BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Combos,Combos COMBO,Combo 1,active,Combo 1,Combo 1
+Combos,Combos COMBO,Combo 2,active,Combo 2,Combo 2
+Combos,Combos COMBO,Combo 3,active,Combo 3,Combo 3
+Combos,Combos COMBO,Combo 4,active,Combo 4,Combo 4
+Combos,Combos COMBO,Combo 5,active,Combo 5,Combo 5
+Personalized,Personalized BYTYPE,Type 1,active,Type 1,Type 1
+Personalized,Personalized BYTYPE,Type 2,active,Type 2,Type 2
+Personalized,Personalized BYTYPE,Type 3,active,Type 3,Type 3
+Personalized,Personalized BYTYPE,Type 4,active,Type 4,Type 4
+Personalized,Personalized BYTYPE,Type 5,active,Type 5,Type 5
+Personalized,Personalized BYBRAND,Brand 1,active,Brand 1,Brand 1
+Personalized,Personalized BYBRAND,Brand 2,active,Brand 2,Brand 2
+Personalized,Personalized BYBRAND,Brand 3,active,Brand 3,Brand 3
+Personalized,Personalized BYBRAND,Brand 4,active,Brand 4,Brand 4
+Personalized,Personalized BYBRAND,Brand 5,active,Brand 5,Brand 5
+Personalized,Personalized BYTHEME,Theme 1,active,Theme 1,Theme 1
+Personalized,Personalized BYTHEME,Theme 2,active,Theme 2,Theme 2
+Personalized,Personalized BYTHEME,Theme 3,active,Theme 3,Theme 3
+Personalized,Personalized BYTHEME,Theme 4,active,Theme 4,Theme 4
+Personalized,Personalized BYTHEME,Theme 5,active,Theme 5,Theme 5
+Personalized,Personalized BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Personalized,Personalized BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Personalized,Personalized BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Personalized,Personalized BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Personalized,Personalized BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Personalized,Personalized COMBO,Combo 1,active,Combo 1,Combo 1
+Personalized,Personalized COMBO,Combo 2,active,Combo 2,Combo 2
+Personalized,Personalized COMBO,Combo 3,active,Combo 3,Combo 3
+Personalized,Personalized COMBO,Combo 4,active,Combo 4,Combo 4
+Personalized,Personalized COMBO,Combo 5,active,Combo 5,Combo 5
+Chocolates,Chocolates BYTYPE,Type 1,active,Type 1,Type 1
+Chocolates,Chocolates BYTYPE,Type 2,active,Type 2,Type 2
+Chocolates,Chocolates BYTYPE,Type 3,active,Type 3,Type 3
+Chocolates,Chocolates BYTYPE,Type 4,active,Type 4,Type 4
+Chocolates,Chocolates BYTYPE,Type 5,active,Type 5,Type 5
+Chocolates,Chocolates BYBRAND,Brand 1,active,Brand 1,Brand 1
+Chocolates,Chocolates BYBRAND,Brand 2,active,Brand 2,Brand 2
+Chocolates,Chocolates BYBRAND,Brand 3,active,Brand 3,Brand 3
+Chocolates,Chocolates BYBRAND,Brand 4,active,Brand 4,Brand 4
+Chocolates,Chocolates BYBRAND,Brand 5,active,Brand 5,Brand 5
+Chocolates,Chocolates BYTHEME,Theme 1,active,Theme 1,Theme 1
+Chocolates,Chocolates BYTHEME,Theme 2,active,Theme 2,Theme 2
+Chocolates,Chocolates BYTHEME,Theme 3,active,Theme 3,Theme 3
+Chocolates,Chocolates BYTHEME,Theme 4,active,Theme 4,Theme 4
+Chocolates,Chocolates BYTHEME,Theme 5,active,Theme 5,Theme 5
+Chocolates,Chocolates BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Chocolates,Chocolates BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Chocolates,Chocolates BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Chocolates,Chocolates BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Chocolates,Chocolates BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Chocolates,Chocolates COMBO,Combo 1,active,Combo 1,Combo 1
+Chocolates,Chocolates COMBO,Combo 2,active,Combo 2,Combo 2
+Chocolates,Chocolates COMBO,Combo 3,active,Combo 3,Combo 3
+Chocolates,Chocolates COMBO,Combo 4,active,Combo 4,Combo 4
+Chocolates,Chocolates COMBO,Combo 5,active,Combo 5,Combo 5
+Balloons,Balloons BYTYPE,Type 1,active,Type 1,Type 1
+Balloons,Balloons BYTYPE,Type 2,active,Type 2,Type 2
+Balloons,Balloons BYTYPE,Type 3,active,Type 3,Type 3
+Balloons,Balloons BYTYPE,Type 4,active,Type 4,Type 4
+Balloons,Balloons BYTYPE,Type 5,active,Type 5,Type 5
+Balloons,Balloons BYCOLOR,Color 1,active,Color 1,Color 1
+Balloons,Balloons BYCOLOR,Color 2,active,Color 2,Color 2
+Balloons,Balloons BYCOLOR,Color 3,active,Color 3,Color 3
+Balloons,Balloons BYCOLOR,Color 4,active,Color 4,Color 4
+Balloons,Balloons BYCOLOR,Color 5,active,Color 5,Color 5
+Balloons,Balloons BYTHEME,Theme 1,active,Theme 1,Theme 1
+Balloons,Balloons BYTHEME,Theme 2,active,Theme 2,Theme 2
+Balloons,Balloons BYTHEME,Theme 3,active,Theme 3,Theme 3
+Balloons,Balloons BYTHEME,Theme 4,active,Theme 4,Theme 4
+Balloons,Balloons BYTHEME,Theme 5,active,Theme 5,Theme 5
+Balloons,Balloons BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Balloons,Balloons BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Balloons,Balloons BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Balloons,Balloons BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Balloons,Balloons BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Balloons,Balloons COMBO,Combo 1,active,Combo 1,Combo 1
+Balloons,Balloons COMBO,Combo 2,active,Combo 2,Combo 2
+Balloons,Balloons COMBO,Combo 3,active,Combo 3,Combo 3
+Balloons,Balloons COMBO,Combo 4,active,Combo 4,Combo 4
+Balloons,Balloons COMBO,Combo 5,active,Combo 5,Combo 5
+Dry Fruits,Dry Fruits BYTYPE,Type 1,active,Type 1,Type 1
+Dry Fruits,Dry Fruits BYTYPE,Type 2,active,Type 2,Type 2
+Dry Fruits,Dry Fruits BYTYPE,Type 3,active,Type 3,Type 3
+Dry Fruits,Dry Fruits BYTYPE,Type 4,active,Type 4,Type 4
+Dry Fruits,Dry Fruits BYTYPE,Type 5,active,Type 5,Type 5
+Dry Fruits,Dry Fruits BYBRAND,Brand 1,active,Brand 1,Brand 1
+Dry Fruits,Dry Fruits BYBRAND,Brand 2,active,Brand 2,Brand 2
+Dry Fruits,Dry Fruits BYBRAND,Brand 3,active,Brand 3,Brand 3
+Dry Fruits,Dry Fruits BYBRAND,Brand 4,active,Brand 4,Brand 4
+Dry Fruits,Dry Fruits BYBRAND,Brand 5,active,Brand 5,Brand 5
+Dry Fruits,Dry Fruits BYTHEME,Theme 1,active,Theme 1,Theme 1
+Dry Fruits,Dry Fruits BYTHEME,Theme 2,active,Theme 2,Theme 2
+Dry Fruits,Dry Fruits BYTHEME,Theme 3,active,Theme 3,Theme 3
+Dry Fruits,Dry Fruits BYTHEME,Theme 4,active,Theme 4,Theme 4
+Dry Fruits,Dry Fruits BYTHEME,Theme 5,active,Theme 5,Theme 5
+Dry Fruits,Dry Fruits BYOCCASION,Occasion 1,active,Occasion 1,Occasion 1
+Dry Fruits,Dry Fruits BYOCCASION,Occasion 2,active,Occasion 2,Occasion 2
+Dry Fruits,Dry Fruits BYOCCASION,Occasion 3,active,Occasion 3,Occasion 3
+Dry Fruits,Dry Fruits BYOCCASION,Occasion 4,active,Occasion 4,Occasion 4
+Dry Fruits,Dry Fruits BYOCCASION,Occasion 5,active,Occasion 5,Occasion 5
+Dry Fruits,Dry Fruits COMBO,Combo 1,active,Combo 1,Combo 1
+Dry Fruits,Dry Fruits COMBO,Combo 2,active,Combo 2,Combo 2
+Dry Fruits,Dry Fruits COMBO,Combo 3,active,Combo 3,Combo 3
+Dry Fruits,Dry Fruits COMBO,Combo 4,active,Combo 4,Combo 4
+Dry Fruits,Dry Fruits COMBO,Combo 5,active,Combo 5,Combo 5
+Cakes,Cakes BYTYPE,Eggless Cakes,active,Eggless Cakes,Eggless Cakes
+Cakes,Cakes BYTYPE,Midnight Cakes,active,Midnight Cakes,Midnight Cakes
+Cakes,Cakes BYTYPE,Photo Cakes,active,Photo Cakes,Photo Cakes
+Cakes,Cakes BYTYPE,Heart Shape Cakes,active,Heart Shape Cakes,Heart Shape Cakes
+Cakes,Cakes BYTYPE,Designer Cakes,active,Designer Cakes,Designer Cakes
+Cakes,Cakes BYTYPE,Fondant Cakes,active,Fondant Cakes,Fondant Cakes
+Cakes,Cakes BYTYPE,Dry Cakes,active,Dry Cakes,Dry Cakes
+Cakes,Cakes BYTYPE,CupCakes,active,CupCakes,CupCakes
+Cakes,Cakes BYTYPE,Pastry,active,Pastry,Pastry
+Cakes,Cakes BYTYPE,Jar Cakes,active,Jar Cakes,Jar Cakes
+Cakes,Cakes BYFLAVOR,Chocolate Cakes,active,Chocolate Cakes,Chocolate Cakes
+Cakes,Cakes BYFLAVOR,Truffle Cakes,active,Truffle Cakes,Truffle Cakes
+Cakes,Cakes BYFLAVOR,Black Forest Cakes,active,Black Forest Cakes,Black Forest Cakes
+Cakes,Cakes BYFLAVOR,Rasmalai Cakes,active,Rasmalai Cakes,Rasmalai Cakes
+Cakes,Cakes BYFLAVOR,Butterscotch Cakes,active,Butterscotch Cakes,Butterscotch Cakes
+Cakes,Cakes BYFLAVOR,Red Velvet Cakes,active,Red Velvet Cakes,Red Velvet Cakes
+Cakes,Cakes BYFLAVOR,Vanilla Cakes,active,Vanilla Cakes,Vanilla Cakes
+Cakes,Cakes BYFLAVOR,Pineapple Cakes,active,Pineapple Cakes,Pineapple Cakes
+Cakes,Cakes BYFLAVOR,Fruit Cakes,active,Fruit Cakes,Fruit Cakes
+Cakes,Cakes BYFLAVOR,Coffee Cakes,active,Coffee Cakes,Coffee Cakes
+Cakes,Cakes BYFLAVOR,Kitkat Cakes,active,Kitkat Cakes,Kitkat Cakes
+Cakes,Cakes BYTHEME,Kids Cakes,active,Kids Cakes,Kids Cakes
+Cakes,Cakes BYTHEME,Unicorn Cakes,active,Unicorn Cakes,Unicorn Cakes
+Cakes,Cakes BYTHEME,Half Cakes,active,Half Cakes,Half Cakes
+Cakes,Cakes BYTHEME,Barbie Doll Cakes,active,Barbie Doll Cakes,Barbie Doll Cakes
+Cakes,Cakes BYTHEME,Tier Cakes,active,Tier Cakes,Tier Cakes
+Cakes,Cakes BYTHEME,Cartoon Cakes,active,Cartoon Cakes,Cartoon Cakes
+Cakes,Cakes BYTHEME,Spiderman Cakes,active,Spiderman Cakes,Spiderman Cakes
+Cakes,Cakes BYOCCASION,Birthday Cakes,active,Birthday Cakes,Birthday Cakes
+Cakes,Cakes BYOCCASION,Anniversary Cakes,active,Anniversary Cakes,Anniversary Cakes
+Cakes,Cakes BYOCCASION,First Birthday Cakes,active,First Birthday Cakes,First Birthday Cakes
+Cakes,Cakes BYOCCASION,First Anniversary Cakes,active,First Anniversary Cakes,First Anniversary Cakes
+Cakes,Cakes BYOCCASION,25th Anniversary Cakes,active,25th Anniversary Cakes,25th Anniversary Cakes
+Cakes,Cakes COMBO,Cake Combos,active,Cake Combos,Cake Combos
+Cakes,Cakes COMBO,Cakes And Flowers,active,Cakes And Flowers,Cakes And Flowers
+Cakes,Cakes COMBO,Cakes and Chocolates,active,Cakes and Chocolates,Cakes and Chocolates
+Cakes,Cakes COMBO,Cakes and Teddies,active,Cakes and Teddies,Cakes and Teddies
+Flowers,Flowers BYTYPE,Rose Bouquets,active,Rose Bouquets,Rose Bouquets
+Flowers,Flowers BYTYPE,Lily Bouquets,active,Lily Bouquets,Lily Bouquets
+Flowers,Flowers BYTYPE,Orchid Bouquets,active,Orchid Bouquets,Orchid Bouquets
+Flowers,Flowers BYCOLOR,Red Flowers,active,Red Flowers,Red Flowers
+Flowers,Flowers BYCOLOR,Yellow Flowers,active,Yellow Flowers,Yellow Flowers
+Flowers,Flowers BYCOLOR,White Flowers,active,White Flowers,White Flowers
+Flowers,Flowers BYTHEME,Theme Bouquets,active,Theme Bouquets,Theme Bouquets
+Flowers,Flowers BYTHEME,Designer Bouquets,active,Designer Bouquets,Designer Bouquets
+Flowers,Flowers BYOCCASION,Birthday Flowers,active,Birthday Flowers,Birthday Flowers
+Flowers,Flowers BYOCCASION,Anniversary Flowers,active,Anniversary Flowers,Anniversary Flowers
+Flowers,Flowers COMBO,Flowers and Cakes,active,Flowers and Cakes,Flowers and Cakes
+Flowers,Flowers COMBO,Flowers and Chocolates,active,Flowers and Chocolates,Flowers and Chocolates
+Gifts,Gifts BYTYPE,Personalized Mugs,active,Personalized Mugs,Personalized Mugs
+Gifts,Gifts BYTYPE,Photo Frames,active,Photo Frames,Photo Frames
+Gifts,Gifts BYBRAND,Fastrack Watches,active,Fastrack Watches,Fastrack Watches
+Gifts,Gifts BYBRAND,Titan Watches,active,Titan Watches,Titan Watches
+Gifts,Gifts BYTHEME,Romantic Gifts,active,Romantic Gifts,Romantic Gifts
+Gifts,Gifts BYTHEME,Friendship Gifts,active,Friendship Gifts,Friendship Gifts
+Gifts,Gifts BYOCCASION,Birthday Gifts,active,Birthday Gifts,Birthday Gifts
+Gifts,Gifts BYOCCASION,Anniversary Gifts,active,Anniversary Gifts,Anniversary Gifts
+Gifts,Gifts COMBO,Gifts and Flowers,active,Gifts and Flowers,Gifts and Flowers
+Gifts,Gifts COMBO,Gifts and Chocolates,active,Gifts and Chocolates,Gifts and Chocolates
+Plants,Plants BYTYPE,Indoor Plants,active,Indoor Plants,Indoor Plants
+Plants,Plants BYTYPE,Outdoor Plants,active,Outdoor Plants,Outdoor Plants
+Plants,Plants BYVARIETY,Bonsai Plants,active,Bonsai Plants,Bonsai Plants
+Plants,Plants BYVARIETY,Succulent Plants,active,Succulent Plants,Succulent Plants
+Plants,Plants BYTHEME,Theme Plants,active,Theme Plants,Theme Plants
+Plants,Plants BYOCCASION,Birthday Plants,active,Birthday Plants,Birthday Plants
+Plants,Plants BYOCCASION,Anniversary Plants,active,Anniversary Plants,Anniversary Plants
+Plants,Plants COMBO,Plants and Flowers,active,Plants and Flowers,Plants and Flowers
+Plants,Plants COMBO,Plants and Chocolates,active,Plants and Chocolates,Plants and Chocolates
+Sweets,Sweets BYTYPE,Motichoor Ladoo,active,Motichoor Ladoo,Motichoor Ladoo
+Sweets,Sweets BYTYPE,Besan Ladoo,active,Besan Ladoo,Besan Ladoo
+Sweets,Sweets BYFLAVOR,Mango Barfi,active,Mango Barfi,Mango Barfi
+Sweets,Sweets BYFLAVOR,Coconut Barfi,active,Coconut Barfi,Coconut Barfi
+Sweets,Sweets BYTHEME,Festival Sweets,active,Festival Sweets,Festival Sweets
+Sweets,Sweets BYOCCASION,Birthday Sweets,active,Birthday Sweets,Birthday Sweets
+Sweets,Sweets BYOCCASION,Anniversary Sweets,active,Anniversary Sweets,Anniversary Sweets
+Sweets,Sweets COMBO,Sweets and Flowers,active,Sweets and Flowers,Sweets and Flowers
+Sweets,Sweets COMBO,Sweets and Chocolates,active,Sweets and Chocolates,Sweets and Chocolates
+Combos,Combos BYTYPE,Gift Combos,active,Gift Combos,Gift Combos
+Combos,Combos BYBRAND,Brand Combos,active,Brand Combos,Brand Combos
+Combos,Combos BYTHEME,Theme Combos,active,Theme Combos,Theme Combos
+Combos,Combos BYOCCASION,Occasion Combos,active,Occasion Combos,Occasion Combos
+Combos,Combos COMBO,Combos and Flowers,active,Combos and Flowers,Combos and Flowers
+Combos,Combos COMBO,Combos and Chocolates,active,Combos and Chocolates,Combos and Chocolates
+Personalized,Personalized BYTYPE,Personalized Cushions,active,Personalized Cushions,Personalized Cushions
+Personalized,Personalized BYBRAND,Brand Cushions,active,Brand Cushions,Brand Cushions
+Personalized,Personalized BYTHEME,Theme Cushions,active,Theme Cushions,Theme Cushions
+Personalized,Personalized BYOCCASION,Occasion Cushions,active,Occasion Cushions,Occasion Cushions
+Personalized,Personalized COMBO,Personalized and Flowers,active,Personalized and Flowers,Personalized and Flowers
+Personalized,Personalized COMBO,Personalized and Chocolates,active,Personalized and Chocolates,Personalized and Chocolates
+Chocolates,Chocolates BYTYPE,Dark Chocolates,active,Dark Chocolates,Dark Chocolates
+Chocolates,Chocolates BYBRAND,Cadbury Chocolates,active,Cadbury Chocolates,Cadbury Chocolates
+Chocolates,Chocolates BYTHEME,Theme Chocolates,active,Theme Chocolates,Theme Chocolates
+Chocolates,Chocolates BYOCCASION,Birthday Chocolates,active,Birthday Chocolates,Birthday Chocolates
+Chocolates,Chocolates BYOCCASION,Anniversary Chocolates,active,Anniversary Chocolates,Anniversary Chocolates
+Chocolates,Chocolates COMBO,Chocolates and Flowers,active,Chocolates and Flowers,Chocolates and Flowers
+Chocolates,Chocolates COMBO,Chocolates and Sweets,active,Chocolates and Sweets,Chocolates and Sweets
+Balloons,Balloons BYTYPE,Helium Balloons,active,Helium Balloons,Helium Balloons
+Balloons,Balloons BYCOLOR,Red Balloons,active,Red Balloons,Red Balloons
+Balloons,Balloons BYTHEME,Theme Balloons,active,Theme Balloons,Theme Balloons
+Balloons,Balloons BYOCCASION,Birthday Balloons,active,Birthday Balloons,Birthday Balloons
+Balloons,Balloons BYOCCASION,Anniversary Balloons,active,Anniversary Balloons,Anniversary Balloons
+Balloons,Balloons COMBO,Balloons and Flowers,active,Balloons and Flowers,Balloons and Flowers
+Balloons,Balloons COMBO,Balloons and Chocolates,active,Balloons and Chocolates,Balloons and Chocolates
+Dry Fruits,Dry Fruits BYTYPE,Almonds,active,Almonds,Almonds
+Dry Fruits,Dry Fruits BYBRAND,Haldiram Almonds,active,Haldiram Almonds,Haldiram Almonds
+Dry Fruits,Dry Fruits BYTHEME,Theme Dry Fruits,active,Theme Dry Fruits,Theme Dry Fruits
+Dry Fruits,Dry Fruits BYOCCASION,Birthday Dry Fruits,active,Birthday Dry Fruits,Birthday Dry Fruits
+Dry Fruits,Dry Fruits BYOCCASION,Anniversary Dry Fruits,active,Anniversary Dry Fruits,Anniversary Dry Fruits
+Dry Fruits,Dry Fruits COMBO,Dry Fruits and Flowers,active,Dry Fruits and Flowers,Dry Fruits and Flowers
+Dry Fruits,Dry Fruits COMBO,Dry Fruits and Chocolates,active,Dry Fruits and Chocolates,Dry Fruits and Chocolates

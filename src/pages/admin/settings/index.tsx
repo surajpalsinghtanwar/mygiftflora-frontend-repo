@@ -110,7 +110,7 @@ const SettingsIndex: React.FC = () => {
                   <div className="fw-medium">Not Set</div>
                 </div>
                 <div className="col-md-3 text-center mb-3">
-                  <div className="h4 text-warning mb-1">🔒</div>
+                  <div className="h4 text-dark mb-1">🔒</div>
                   <div className="small text-muted">Security</div>
                   <div className="fw-medium">Default</div>
                 </div>

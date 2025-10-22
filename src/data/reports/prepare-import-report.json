@@ -1,0 +1,1057 @@
+{
+  "total": 2880,
+  "slugChanges": [
+    {
+      "row": 202,
+      "original": "type-1",
+      "updated": "type-1-u1"
+    },
+    {
+      "row": 210,
+      "original": "type-2",
+      "updated": "type-2-u1"
+    },
+    {
+      "row": 218,
+      "original": "type-3",
+      "updated": "type-3-u1"
+    },
+    {
+      "row": 226,
+      "original": "type-4",
+      "updated": "type-4-u1"
+    },
+    {
+      "row": 234,
+      "original": "type-5",
+      "updated": "type-5-u1"
+    },
+    {
+      "row": 282,
+      "original": "theme-1",
+      "updated": "theme-1-u1"
+    },
+    {
+      "row": 290,
+      "original": "theme-2",
+      "updated": "theme-2-u1"
+    },
+    {
+      "row": 298,
+      "original": "theme-3",
+      "updated": "theme-3-u1"
+    },
+    {
+      "row": 306,
+      "original": "theme-4",
+      "updated": "theme-4-u1"
+    },
+    {
+      "row": 314,
+      "original": "theme-5",
+      "updated": "theme-5-u1"
+    },
+    {
+      "row": 322,
+      "original": "occasion-1",
+      "updated": "occasion-1-u1"
+    },
+    {
+      "row": 330,
+      "original": "occasion-2",
+      "updated": "occasion-2-u1"
+    },
+    {
+      "row": 338,
+      "original": "occasion-3",
+      "updated": "occasion-3-u1"
+    },
+    {
+      "row": 346,
+      "original": "occasion-4",
+      "updated": "occasion-4-u1"
+    },
+    {
+      "row": 354,
+      "original": "occasion-5",
+      "updated": "occasion-5-u1"
+    },
+    {
+      "row": 362,
+      "original": "combo-1",
+      "updated": "combo-1-u1"
+    },
+    {
+      "row": 370,
+      "original": "combo-2",
+      "updated": "combo-2-u1"
+    },
+    {
+      "row": 378,
+      "original": "combo-3",
+      "updated": "combo-3-u1"
+    },
+    {
+      "row": 386,
+      "original": "combo-4",
+      "updated": "combo-4-u1"
+    },
+    {
+      "row": 394,
+      "original": "combo-5",
+      "updated": "combo-5-u1"
+    },
+    {
+      "row": 402,
+      "original": "type-1",
+      "updated": "type-1-u2"
+    },
+    {
+      "row": 410,
+      "original": "type-2",
+      "updated": "type-2-u2"
+    },
+    {
+      "row": 418,
+      "original": "type-3",
+      "updated": "type-3-u2"
+    },
+    {
+      "row": 426,
+      "original": "type-4",
+      "updated": "type-4-u2"
+    },
+    {
+      "row": 434,
+      "original": "type-5",
+      "updated": "type-5-u2"
+    },
+    {
+      "row": 482,
+      "original": "theme-1",
+      "updated": "theme-1-u2"
+    },
+    {
+      "row": 490,
+      "original": "theme-2",
+      "updated": "theme-2-u2"
+    },
+    {
+      "row": 498,
+      "original": "theme-3",
+      "updated": "theme-3-u2"
+    },
+    {
+      "row": 506,
+      "original": "theme-4",
+      "updated": "theme-4-u2"
+    },
+    {
+      "row": 514,
+      "original": "theme-5",
+      "updated": "theme-5-u2"
+    },
+    {
+      "row": 522,
+      "original": "occasion-1",
+      "updated": "occasion-1-u2"
+    },
+    {
+      "row": 530,
+      "original": "occasion-2",
+      "updated": "occasion-2-u2"
+    },
+    {
+      "row": 538,
+      "original": "occasion-3",
+      "updated": "occasion-3-u2"
+    },
+    {
+      "row": 546,
+      "original": "occasion-4",
+      "updated": "occasion-4-u2"
+    },
+    {
+      "row": 554,
+      "original": "occasion-5",
+      "updated": "occasion-5-u2"
+    },
+    {
+      "row": 562,
+      "original": "combo-1",
+      "updated": "combo-1-u2"
+    },
+    {
+      "row": 570,
+      "original": "combo-2",
+      "updated": "combo-2-u2"
+    },
+    {
+      "row": 578,
+      "original": "combo-3",
+      "updated": "combo-3-u2"
+    },
+    {
+      "row": 586,
+      "original": "combo-4",
+      "updated": "combo-4-u2"
+    },
+    {
+      "row": 594,
+      "original": "combo-5",
+      "updated": "combo-5-u2"
+    },
+    {
+      "row": 602,
+      "original": "type-1",
+      "updated": "type-1-u3"
+    },
+    {
+      "row": 610,
+      "original": "type-2",
+      "updated": "type-2-u3"
+    },
+    {
+      "row": 618,
+      "original": "type-3",
+      "updated": "type-3-u3"
+    },
+    {
+      "row": 626,
+      "original": "type-4",
+      "updated": "type-4-u3"
+    },
+    {
+      "row": 634,
+      "original": "type-5",
+      "updated": "type-5-u3"
+    },
+    {
+      "row": 682,
+      "original": "theme-1",
+      "updated": "theme-1-u3"
+    },
+    {
+      "row": 690,
+      "original": "theme-2",
+      "updated": "theme-2-u3"
+    },
+    {
+      "row": 698,
+      "original": "theme-3",
+      "updated": "theme-3-u3"
+    },
+    {
+      "row": 706,
+      "original": "theme-4",
+      "updated": "theme-4-u3"
+    },
+    {
+      "row": 714,
+      "original": "theme-5",
+      "updated": "theme-5-u3"
+    },
+    {
+      "row": 722,
+      "original": "occasion-1",
+      "updated": "occasion-1-u3"
+    },
+    {
+      "row": 730,
+      "original": "occasion-2",
+      "updated": "occasion-2-u3"
+    },
+    {
+      "row": 738,
+      "original": "occasion-3",
+      "updated": "occasion-3-u3"
+    },
+    {
+      "row": 746,
+      "original": "occasion-4",
+      "updated": "occasion-4-u3"
+    },
+    {
+      "row": 754,
+      "original": "occasion-5",
+      "updated": "occasion-5-u3"
+    },
+    {
+      "row": 762,
+      "original": "combo-1",
+      "updated": "combo-1-u3"
+    },
+    {
+      "row": 770,
+      "original": "combo-2",
+      "updated": "combo-2-u3"
+    },
+    {
+      "row": 778,
+      "original": "combo-3",
+      "updated": "combo-3-u3"
+    },
+    {
+      "row": 786,
+      "original": "combo-4",
+      "updated": "combo-4-u3"
+    },
+    {
+      "row": 794,
+      "original": "combo-5",
+      "updated": "combo-5-u3"
+    },
+    {
+      "row": 802,
+      "original": "type-1",
+      "updated": "type-1-u4"
+    },
+    {
+      "row": 810,
+      "original": "type-2",
+      "updated": "type-2-u4"
+    },
+    {
+      "row": 818,
+      "original": "type-3",
+      "updated": "type-3-u4"
+    },
+    {
+      "row": 826,
+      "original": "type-4",
+      "updated": "type-4-u4"
+    },
+    {
+      "row": 834,
+      "original": "type-5",
+      "updated": "type-5-u4"
+    },
+    {
+      "row": 842,
+      "original": "flavor-1",
+      "updated": "flavor-1-u1"
+    },
+    {
+      "row": 850,
+      "original": "flavor-2",
+      "updated": "flavor-2-u1"
+    },
+    {
+      "row": 858,
+      "original": "flavor-3",
+      "updated": "flavor-3-u1"
+    },
+    {
+      "row": 866,
+      "original": "flavor-4",
+      "updated": "flavor-4-u1"
+    },
+    {
+      "row": 874,
+      "original": "flavor-5",
+      "updated": "flavor-5-u1"
+    },
+    {
+      "row": 882,
+      "original": "theme-1",
+      "updated": "theme-1-u4"
+    },
+    {
+      "row": 890,
+      "original": "theme-2",
+      "updated": "theme-2-u4"
+    },
+    {
+      "row": 898,
+      "original": "theme-3",
+      "updated": "theme-3-u4"
+    },
+    {
+      "row": 906,
+      "original": "theme-4",
+      "updated": "theme-4-u4"
+    },
+    {
+      "row": 914,
+      "original": "theme-5",
+      "updated": "theme-5-u4"
+    },
+    {
+      "row": 922,
+      "original": "occasion-1",
+      "updated": "occasion-1-u4"
+    },
+    {
+      "row": 930,
+      "original": "occasion-2",
+      "updated": "occasion-2-u4"
+    },
+    {
+      "row": 938,
+      "original": "occasion-3",
+      "updated": "occasion-3-u4"
+    },
+    {
+      "row": 946,
+      "original": "occasion-4",
+      "updated": "occasion-4-u4"
+    },
+    {
+      "row": 954,
+      "original": "occasion-5",
+      "updated": "occasion-5-u4"
+    },
+    {
+      "row": 962,
+      "original": "combo-1",
+      "updated": "combo-1-u4"
+    },
+    {
+      "row": 970,
+      "original": "combo-2",
+      "updated": "combo-2-u4"
+    },
+    {
+      "row": 978,
+      "original": "combo-3",
+      "updated": "combo-3-u4"
+    },
+    {
+      "row": 986,
+      "original": "combo-4",
+      "updated": "combo-4-u4"
+    },
+    {
+      "row": 994,
+      "original": "combo-5",
+      "updated": "combo-5-u4"
+    },
+    {
+      "row": 1002,
+      "original": "type-1",
+      "updated": "type-1-u5"
+    },
+    {
+      "row": 1010,
+      "original": "type-2",
+      "updated": "type-2-u5"
+    },
+    {
+      "row": 1018,
+      "original": "type-3",
+      "updated": "type-3-u5"
+    },
+    {
+      "row": 1026,
+      "original": "type-4",
+      "updated": "type-4-u5"
+    },
+    {
+      "row": 1034,
+      "original": "type-5",
+      "updated": "type-5-u5"
+    },
+    {
+      "row": 1042,
+      "original": "brand-1",
+      "updated": "brand-1-u1"
+    },
+    {
+      "row": 1050,
+      "original": "brand-2",
+      "updated": "brand-2-u1"
+    },
+    {
+      "row": 1058,
+      "original": "brand-3",
+      "updated": "brand-3-u1"
+    },
+    {
+      "row": 1066,
+      "original": "brand-4",
+      "updated": "brand-4-u1"
+    },
+    {
+      "row": 1074,
+      "original": "brand-5",
+      "updated": "brand-5-u1"
+    },
+    {
+      "row": 1082,
+      "original": "theme-1",
+      "updated": "theme-1-u5"
+    },
+    {
+      "row": 1090,
+      "original": "theme-2",
+      "updated": "theme-2-u5"
+    },
+    {
+      "row": 1098,
+      "original": "theme-3",
+      "updated": "theme-3-u5"
+    },
+    {
+      "row": 1106,
+      "original": "theme-4",
+      "updated": "theme-4-u5"
+    },
+    {
+      "row": 1114,
+      "original": "theme-5",
+      "updated": "theme-5-u5"
+    },
+    {
+      "row": 1122,
+      "original": "occasion-1",
+      "updated": "occasion-1-u5"
+    },
+    {
+      "row": 1130,
+      "original": "occasion-2",
+      "updated": "occasion-2-u5"
+    },
+    {
+      "row": 1138,
+      "original": "occasion-3",
+      "updated": "occasion-3-u5"
+    },
+    {
+      "row": 1146,
+      "original": "occasion-4",
+      "updated": "occasion-4-u5"
+    },
+    {
+      "row": 1154,
+      "original": "occasion-5",
+      "updated": "occasion-5-u5"
+    },
+    {
+      "row": 1162,
+      "original": "combo-1",
+      "updated": "combo-1-u5"
+    },
+    {
+      "row": 1170,
+      "original": "combo-2",
+      "updated": "combo-2-u5"
+    },
+    {
+      "row": 1178,
+      "original": "combo-3",
+      "updated": "combo-3-u5"
+    },
+    {
+      "row": 1186,
+      "original": "combo-4",
+      "updated": "combo-4-u5"
+    },
+    {
+      "row": 1194,
+      "original": "combo-5",
+      "updated": "combo-5-u5"
+    },
+    {
+      "row": 1202,
+      "original": "type-1",
+      "updated": "type-1-u6"
+    },
+    {
+      "row": 1210,
+      "original": "type-2",
+      "updated": "type-2-u6"
+    },
+    {
+      "row": 1218,
+      "original": "type-3",
+      "updated": "type-3-u6"
+    },
+    {
+      "row": 1226,
+      "original": "type-4",
+      "updated": "type-4-u6"
+    },
+    {
+      "row": 1234,
+      "original": "type-5",
+      "updated": "type-5-u6"
+    },
+    {
+      "row": 1242,
+      "original": "brand-1",
+      "updated": "brand-1-u2"
+    },
+    {
+      "row": 1250,
+      "original": "brand-2",
+      "updated": "brand-2-u2"
+    },
+    {
+      "row": 1258,
+      "original": "brand-3",
+      "updated": "brand-3-u2"
+    },
+    {
+      "row": 1266,
+      "original": "brand-4",
+      "updated": "brand-4-u2"
+    },
+    {
+      "row": 1274,
+      "original": "brand-5",
+      "updated": "brand-5-u2"
+    },
+    {
+      "row": 1282,
+      "original": "theme-1",
+      "updated": "theme-1-u6"
+    },
+    {
+      "row": 1290,
+      "original": "theme-2",
+      "updated": "theme-2-u6"
+    },
+    {
+      "row": 1298,
+      "original": "theme-3",
+      "updated": "theme-3-u6"
+    },
+    {
+      "row": 1306,
+      "original": "theme-4",
+      "updated": "theme-4-u6"
+    },
+    {
+      "row": 1314,
+      "original": "theme-5",
+      "updated": "theme-5-u6"
+    },
+    {
+      "row": 1322,
+      "original": "occasion-1",
+      "updated": "occasion-1-u6"
+    },
+    {
+      "row": 1330,
+      "original": "occasion-2",
+      "updated": "occasion-2-u6"
+    },
+    {
+      "row": 1338,
+      "original": "occasion-3",
+      "updated": "occasion-3-u6"
+    },
+    {
+      "row": 1346,
+      "original": "occasion-4",
+      "updated": "occasion-4-u6"
+    },
+    {
+      "row": 1354,
+      "original": "occasion-5",
+      "updated": "occasion-5-u6"
+    },
+    {
+      "row": 1362,
+      "original": "combo-1",
+      "updated": "combo-1-u6"
+    },
+    {
+      "row": 1370,
+      "original": "combo-2",
+      "updated": "combo-2-u6"
+    },
+    {
+      "row": 1378,
+      "original": "combo-3",
+      "updated": "combo-3-u6"
+    },
+    {
+      "row": 1386,
+      "original": "combo-4",
+      "updated": "combo-4-u6"
+    },
+    {
+      "row": 1394,
+      "original": "combo-5",
+      "updated": "combo-5-u6"
+    },
+    {
+      "row": 1402,
+      "original": "type-1",
+      "updated": "type-1-u7"
+    },
+    {
+      "row": 1410,
+      "original": "type-2",
+      "updated": "type-2-u7"
+    },
+    {
+      "row": 1418,
+      "original": "type-3",
+      "updated": "type-3-u7"
+    },
+    {
+      "row": 1426,
+      "original": "type-4",
+      "updated": "type-4-u7"
+    },
+    {
+      "row": 1434,
+      "original": "type-5",
+      "updated": "type-5-u7"
+    },
+    {
+      "row": 1442,
+      "original": "brand-1",
+      "updated": "brand-1-u3"
+    },
+    {
+      "row": 1450,
+      "original": "brand-2",
+      "updated": "brand-2-u3"
+    },
+    {
+      "row": 1458,
+      "original": "brand-3",
+      "updated": "brand-3-u3"
+    },
+    {
+      "row": 1466,
+      "original": "brand-4",
+      "updated": "brand-4-u3"
+    },
+    {
+      "row": 1474,
+      "original": "brand-5",
+      "updated": "brand-5-u3"
+    },
+    {
+      "row": 1482,
+      "original": "theme-1",
+      "updated": "theme-1-u7"
+    },
+    {
+      "row": 1490,
+      "original": "theme-2",
+      "updated": "theme-2-u7"
+    },
+    {
+      "row": 1498,
+      "original": "theme-3",
+      "updated": "theme-3-u7"
+    },
+    {
+      "row": 1506,
+      "original": "theme-4",
+      "updated": "theme-4-u7"
+    },
+    {
+      "row": 1514,
+      "original": "theme-5",
+      "updated": "theme-5-u7"
+    },
+    {
+      "row": 1522,
+      "original": "occasion-1",
+      "updated": "occasion-1-u7"
+    },
+    {
+      "row": 1530,
+      "original": "occasion-2",
+      "updated": "occasion-2-u7"
+    },
+    {
+      "row": 1538,
+      "original": "occasion-3",
+      "updated": "occasion-3-u7"
+    },
+    {
+      "row": 1546,
+      "original": "occasion-4",
+      "updated": "occasion-4-u7"
+    },
+    {
+      "row": 1554,
+      "original": "occasion-5",
+      "updated": "occasion-5-u7"
+    },
+    {
+      "row": 1562,
+      "original": "combo-1",
+      "updated": "combo-1-u7"
+    },
+    {
+      "row": 1570,
+      "original": "combo-2",
+      "updated": "combo-2-u7"
+    },
+    {
+      "row": 1578,
+      "original": "combo-3",
+      "updated": "combo-3-u7"
+    },
+    {
+      "row": 1586,
+      "original": "combo-4",
+      "updated": "combo-4-u7"
+    },
+    {
+      "row": 1594,
+      "original": "combo-5",
+      "updated": "combo-5-u7"
+    },
+    {
+      "row": 1602,
+      "original": "type-1",
+      "updated": "type-1-u8"
+    },
+    {
+      "row": 1610,
+      "original": "type-2",
+      "updated": "type-2-u8"
+    },
+    {
+      "row": 1618,
+      "original": "type-3",
+      "updated": "type-3-u8"
+    },
+    {
+      "row": 1626,
+      "original": "type-4",
+      "updated": "type-4-u8"
+    },
+    {
+      "row": 1634,
+      "original": "type-5",
+      "updated": "type-5-u8"
+    },
+    {
+      "row": 1642,
+      "original": "color-1",
+      "updated": "color-1-u1"
+    },
+    {
+      "row": 1650,
+      "original": "color-2",
+      "updated": "color-2-u1"
+    },
+    {
+      "row": 1658,
+      "original": "color-3",
+      "updated": "color-3-u1"
+    },
+    {
+      "row": 1666,
+      "original": "color-4",
+      "updated": "color-4-u1"
+    },
+    {
+      "row": 1674,
+      "original": "color-5",
+      "updated": "color-5-u1"
+    },
+    {
+      "row": 1682,
+      "original": "theme-1",
+      "updated": "theme-1-u8"
+    },
+    {
+      "row": 1690,
+      "original": "theme-2",
+      "updated": "theme-2-u8"
+    },
+    {
+      "row": 1698,
+      "original": "theme-3",
+      "updated": "theme-3-u8"
+    },
+    {
+      "row": 1706,
+      "original": "theme-4",
+      "updated": "theme-4-u8"
+    },
+    {
+      "row": 1714,
+      "original": "theme-5",
+      "updated": "theme-5-u8"
+    },
+    {
+      "row": 1722,
+      "original": "occasion-1",
+      "updated": "occasion-1-u8"
+    },
+    {
+      "row": 1730,
+      "original": "occasion-2",
+      "updated": "occasion-2-u8"
+    },
+    {
+      "row": 1738,
+      "original": "occasion-3",
+      "updated": "occasion-3-u8"
+    },
+    {
+      "row": 1746,
+      "original": "occasion-4",
+      "updated": "occasion-4-u8"
+    },
+    {
+      "row": 1754,
+      "original": "occasion-5",
+      "updated": "occasion-5-u8"
+    },
+    {
+      "row": 1762,
+      "original": "combo-1",
+      "updated": "combo-1-u8"
+    },
+    {
+      "row": 1770,
+      "original": "combo-2",
+      "updated": "combo-2-u8"
+    },
+    {
+      "row": 1778,
+      "original": "combo-3",
+      "updated": "combo-3-u8"
+    },
+    {
+      "row": 1786,
+      "original": "combo-4",
+      "updated": "combo-4-u8"
+    },
+    {
+      "row": 1794,
+      "original": "combo-5",
+      "updated": "combo-5-u8"
+    },
+    {
+      "row": 1802,
+      "original": "type-1",
+      "updated": "type-1-u9"
+    },
+    {
+      "row": 1810,
+      "original": "type-2",
+      "updated": "type-2-u9"
+    },
+    {
+      "row": 1818,
+      "original": "type-3",
+      "updated": "type-3-u9"
+    },
+    {
+      "row": 1826,
+      "original": "type-4",
+      "updated": "type-4-u9"
+    },
+    {
+      "row": 1834,
+      "original": "type-5",
+      "updated": "type-5-u9"
+    },
+    {
+      "row": 1842,
+      "original": "brand-1",
+      "updated": "brand-1-u4"
+    },
+    {
+      "row": 1850,
+      "original": "brand-2",
+      "updated": "brand-2-u4"
+    },
+    {
+      "row": 1858,
+      "original": "brand-3",
+      "updated": "brand-3-u4"
+    },
+    {
+      "row": 1866,
+      "original": "brand-4",
+      "updated": "brand-4-u4"
+    },
+    {
+      "row": 1874,
+      "original": "brand-5",
+      "updated": "brand-5-u4"
+    },
+    {
+      "row": 1882,
+      "original": "theme-1",
+      "updated": "theme-1-u9"
+    },
+    {
+      "row": 1890,
+      "original": "theme-2",
+      "updated": "theme-2-u9"
+    },
+    {
+      "row": 1898,
+      "original": "theme-3",
+      "updated": "theme-3-u9"
+    },
+    {
+      "row": 1906,
+      "original": "theme-4",
+      "updated": "theme-4-u9"
+    },
+    {
+      "row": 1914,
+      "original": "theme-5",
+      "updated": "theme-5-u9"
+    },
+    {
+      "row": 1922,
+      "original": "occasion-1",
+      "updated": "occasion-1-u9"
+    },
+    {
+      "row": 1930,
+      "original": "occasion-2",
+      "updated": "occasion-2-u9"
+    },
+    {
+      "row": 1938,
+      "original": "occasion-3",
+      "updated": "occasion-3-u9"
+    },
+    {
+      "row": 1946,
+      "original": "occasion-4",
+      "updated": "occasion-4-u9"
+    },
+    {
+      "row": 1954,
+      "original": "occasion-5",
+      "updated": "occasion-5-u9"
+    },
+    {
+      "row": 1962,
+      "original": "combo-1",
+      "updated": "combo-1-u9"
+    },
+    {
+      "row": 1970,
+      "original": "combo-2",
+      "updated": "combo-2-u9"
+    },
+    {
+      "row": 1978,
+      "original": "combo-3",
+      "updated": "combo-3-u9"
+    },
+    {
+      "row": 1986,
+      "original": "combo-4",
+      "updated": "combo-4-u9"
+    },
+    {
+      "row": 1994,
+      "original": "combo-5",
+      "updated": "combo-5-u9"
+    }
+  ],
+  "skuChanges": [],
+  "statusNormalized": 2880
+}

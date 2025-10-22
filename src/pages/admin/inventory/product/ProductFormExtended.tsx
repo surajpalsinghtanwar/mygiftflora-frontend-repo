@@ -168,12 +168,12 @@ const ProductFormExtended: React.FC = () => {
       {activeTab === 'img' && (
         <div className="row g-3">
           <div className="col-md-6">
-            <label className="form-label">Main Image</label>
+            <label className="form-label">Main Image <small className="text-muted ms-2" title="Recommended image size: 800×800">(Recommended: 800×800)</small></label>
             <input type="file" accept="image/*" className="form-control" onChange={handleMainImage} />
             {mainImagePreview && <img src={mainImagePreview} alt="Main" className="img-thumbnail mt-2" style={{ maxWidth: 120 }} />}
           </div>
           <div className="col-md-6">
-            <label className="form-label">Gallery Images</label>
+            <label className="form-label">Gallery Images <small className="text-muted ms-2" title="Recommended image size: 400×400">(Recommended: 400×400)</small></label>
             <input type="file" accept="image/*" className="form-control" multiple onChange={handleGallery} />
             <div className="d-flex flex-wrap mt-2">
               {galleryPreview.map((img, idx) => (

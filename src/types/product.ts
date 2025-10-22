@@ -42,7 +42,7 @@ export interface CreateProductPayload {
   subSubcategoryId?: string;
   sku: string;
   stock: number;
-  mainImage?: File;
+  main_image?: File;
   galleryImages?: File[];
   specifications?: Record<string, string>;
   isActive?: boolean;

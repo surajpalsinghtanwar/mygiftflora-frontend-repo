@@ -1,22 +1,25 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { useSelector } from 'react-redux';
-import { RootState } from '../store/store.minimal';
 import Sidebar from '../components/Sidebar';
 import Topbar from '../components/Topbar';
 
 const AdminLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const router = useRouter();
-  const { user } = useSelector((state: RootState) => state.auth);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // If user is not logged in, redirect to login
-    if (!user) {
-      router.push('/');
+    // Check if user is authenticated
+    const token = localStorage.getItem('access_token');
+    if (!token) {
+      router.push('/admin/login');
+    } else {
+      setIsAuthenticated(true);
     }
-  }, [user, router]);
+    setLoading(false);
+  }, [router]);
 
-  if (!user) {
+  if (loading) {
     return (
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <div className="spinner-border text-primary" role="status">
@@ -24,6 +27,10 @@ const AdminLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         </div>
       </div>
     );
+  }
+
+  if (!isAuthenticated) {
+    return null; // Will redirect to login
   }
 
   return (

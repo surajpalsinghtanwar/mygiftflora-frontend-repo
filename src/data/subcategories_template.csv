@@ -1,0 +1,51 @@
+category_name,name,image,meta_title,meta_description,status
+Cakes,Cakes BYTYPE,,,Cakes BYTYPE,etc,active
+Cakes,Cakes BYFLAVOR,,,Cakes BYFLAVOR,etc,active
+Cakes,Cakes BYTHEME,,,Cakes BYTHEME,etc,active
+Cakes,Cakes BYOCCASION,,,Cakes BYOCCASION,etc,active
+Cakes,Cakes COMBO,,,Cakes COMBO,etc,active
+Flowers,Flowers BYTYPE,,,Flowers BYTYPE,etc,active
+Flowers,Flowers BYCOLOR,,,Flowers BYCOLOR,etc,active
+Flowers,Flowers BYTHEME,,,Flowers BYTHEME,etc,active
+Flowers,Flowers BYOCCASION,,,Flowers BYOCCASION,etc,active
+Flowers,Flowers COMBO,,,Flowers COMBO,etc,active
+Gifts,Gifts BYTYPE,,,Gifts BYTYPE,etc,active
+Gifts,Gifts BYBRAND,,,Gifts BYBRAND,etc,active
+Gifts,Gifts BYTHEME,,,Gifts BYTHEME,etc,active
+Gifts,Gifts BYOCCASION,,,Gifts BYOCCASION,etc,active
+Gifts,Gifts COMBO,,,Gifts COMBO,etc,active
+Plants,Plants BYTYPE,,,Plants BYTYPE,etc,active
+Plants,Plants BYVARIETY,,,Plants BYVARIETY,etc,active
+Plants,Plants BYTHEME,,,Plants BYTHEME,etc,active
+Plants,Plants BYOCCASION,,,Plants BYOCCASION,etc,active
+Plants,Plants COMBO,,,Plants COMBO,etc,active
+Sweets,Sweets BYTYPE,,,Sweets BYTYPE,etc,active
+Sweets,Sweets BYFLAVOR,,,Sweets BYFLAVOR,etc,active
+Sweets,Sweets BYTHEME,,,Sweets BYTHEME,etc,active
+Sweets,Sweets BYOCCASION,,,Sweets BYOCCASION,etc,active
+Sweets,Sweets COMBO,,,Sweets COMBO,etc,active
+Combos,Combos BYTYPE,,,Combos BYTYPE,etc,active
+Combos,Combos BYBRAND,,,Combos BYBRAND,etc,active
+Combos,Combos BYTHEME,,,Combos BYTHEME,etc,active
+Combos,Combos BYOCCASION,,,Combos BYOCCASION,etc,active
+Combos,Combos COMBO,,,Combos COMBO,etc,active
+Personalized,Personalized BYTYPE,,,Personalized BYTYPE,etc,active
+Personalized,Personalized BYBRAND,,,Personalized BYBRAND,etc,active
+Personalized,Personalized BYTHEME,,,Personalized BYTHEME,etc,active
+Personalized,Personalized BYOCCASION,,,Personalized BYOCCASION,etc,active
+Personalized,Personalized COMBO,,,Personalized COMBO,etc,active
+Chocolates,Chocolates BYTYPE,,,Chocolates BYTYPE,etc,active
+Chocolates,Chocolates BYBRAND,,,Chocolates BYBRAND,etc,active
+Chocolates,Chocolates BYTHEME,,,Chocolates BYTHEME,etc,active
+Chocolates,Chocolates BYOCCASION,,,Chocolates BYOCCASION,etc,active
+Chocolates,Chocolates COMBO,,,Chocolates COMBO,etc,active
+Balloons,Balloons BYTYPE,,,Balloons BYTYPE,etc,active
+Balloons,Balloons BYCOLOR,,,Balloons BYCOLOR,etc,active
+Balloons,Balloons BYTHEME,,,Balloons BYTHEME,etc,active
+Balloons,Balloons BYOCCASION,,,Balloons BYOCCASION,etc,active
+Balloons,Balloons COMBO,,,Balloons COMBO,etc,active
+Dry Fruits,Dry Fruits BYTYPE,,,Dry Fruits BYTYPE,etc,active
+Dry Fruits,Dry Fruits BYBRAND,,,Dry Fruits BYBRAND,etc,active
+Dry Fruits,Dry Fruits BYTHEME,,,Dry Fruits BYTHEME,etc,active
+Dry Fruits,Dry Fruits BYOCCASION,,,Dry Fruits BYOCCASION,etc,active
+Dry Fruits,Dry Fruits COMBO,,,Dry Fruits COMBO,etc,active

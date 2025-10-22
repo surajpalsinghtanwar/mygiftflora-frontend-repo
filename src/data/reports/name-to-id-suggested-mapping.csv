@@ -1,0 +1,211 @@
+type,original_name,suggested_canonical_name,score
+category,undefined,Balloons,1.000
+category,undefined,Cakes,1.000
+category,undefined,Chocolates,1.000
+category,undefined,Combos,1.000
+category,undefined,Dry Fruits,1.000
+category,undefined,Flowers,1.000
+category,undefined,Gifts,1.000
+category,undefined,Personalized,1.000
+category,undefined,Plants,1.000
+category,undefined,Sweets,1.000
+subcategory,undefined,Balloons BYCOLOR,1.000
+subcategory,undefined,Balloons BYOCCASION,1.000
+subcategory,undefined,Balloons BYTHEME,1.000
+subcategory,undefined,Balloons BYTYPE,1.000
+subcategory,undefined,Balloons COMBO,1.000
+subcategory,undefined,Cakes BYFLAVOR,1.000
+subcategory,undefined,Cakes BYOCCASION,1.000
+subcategory,undefined,Cakes BYTHEME,1.000
+subcategory,undefined,Cakes BYTYPE,1.000
+subcategory,undefined,Cakes COMBO,1.000
+subcategory,undefined,Chocolates BYBRAND,1.000
+subcategory,undefined,Chocolates BYOCCASION,1.000
+subcategory,undefined,Chocolates BYTHEME,1.000
+subcategory,undefined,Chocolates BYTYPE,1.000
+subcategory,undefined,Chocolates COMBO,1.000
+subcategory,undefined,Combos BYBRAND,1.000
+subcategory,undefined,Combos BYOCCASION,1.000
+subcategory,undefined,Combos BYTHEME,1.000
+subcategory,undefined,Combos BYTYPE,1.000
+subcategory,undefined,Combos COMBO,1.000
+subcategory,undefined,Dry Fruits BYBRAND,1.000
+subcategory,undefined,Dry Fruits BYOCCASION,1.000
+subcategory,undefined,Dry Fruits BYTHEME,1.000
+subcategory,undefined,Dry Fruits BYTYPE,1.000
+subcategory,undefined,Dry Fruits COMBO,1.000
+subcategory,undefined,Flowers BYCOLOR,1.000
+subcategory,undefined,Flowers BYOCCASION,1.000
+subcategory,undefined,Flowers BYTHEME,1.000
+subcategory,undefined,Flowers BYTYPE,1.000
+subcategory,undefined,Flowers COMBO,1.000
+subcategory,undefined,Gifts BYBRAND,1.000
+subcategory,undefined,Gifts BYOCCASION,1.000
+subcategory,undefined,Gifts BYTHEME,1.000
+subcategory,undefined,Gifts BYTYPE,1.000
+subcategory,undefined,Gifts COMBO,1.000
+subcategory,undefined,Personalized BYBRAND,1.000
+subcategory,undefined,Personalized BYOCCASION,1.000
+subcategory,undefined,Personalized BYTHEME,1.000
+subcategory,undefined,Personalized BYTYPE,1.000
+subcategory,undefined,Personalized COMBO,1.000
+subcategory,undefined,Plants BYOCCASION,1.000
+subcategory,undefined,Plants BYTHEME,1.000
+subcategory,undefined,Plants BYTYPE,1.000
+subcategory,undefined,Plants BYVARIETY,1.000
+subcategory,undefined,Plants COMBO,1.000
+subcategory,undefined,Sweets BYFLAVOR,1.000
+subcategory,undefined,Sweets BYOCCASION,1.000
+subcategory,undefined,Sweets BYTHEME,1.000
+subcategory,undefined,Sweets BYTYPE,1.000
+subcategory,undefined,Sweets COMBO,1.000
+subsubcategory,undefined,25th Anniversary Cakes,1.000
+subsubcategory,undefined,Almonds,1.000
+subsubcategory,undefined,Anniversary Balloons,1.000
+subsubcategory,undefined,Anniversary Cakes,1.000
+subsubcategory,undefined,Anniversary Chocolates,1.000
+subsubcategory,undefined,Anniversary Dry Fruits,1.000
+subsubcategory,undefined,Anniversary Flowers,1.000
+subsubcategory,undefined,Anniversary Gifts,1.000
+subsubcategory,undefined,Anniversary Plants,1.000
+subsubcategory,undefined,Anniversary Sweets,1.000
+subsubcategory,undefined,Balloons and Chocolates,1.000
+subsubcategory,undefined,Balloons and Flowers,1.000
+subsubcategory,undefined,Barbie Doll Cakes,1.000
+subsubcategory,undefined,Besan Ladoo,1.000
+subsubcategory,undefined,Birthday Balloons,1.000
+subsubcategory,undefined,Birthday Cakes,1.000
+subsubcategory,undefined,Birthday Chocolates,1.000
+subsubcategory,undefined,Birthday Dry Fruits,1.000
+subsubcategory,undefined,Birthday Flowers,1.000
+subsubcategory,undefined,Birthday Gifts,1.000
+subsubcategory,undefined,Birthday Plants,1.000
+subsubcategory,undefined,Birthday Sweets,1.000
+subsubcategory,undefined,Black Forest Cakes,1.000
+subsubcategory,undefined,Bonsai Plants,1.000
+subsubcategory,undefined,Brand 1,1.000
+subsubcategory,undefined,Brand 2,1.000
+subsubcategory,undefined,Brand 3,1.000
+subsubcategory,undefined,Brand 4,1.000
+subsubcategory,undefined,Brand 5,1.000
+subsubcategory,undefined,Brand Combos,1.000
+subsubcategory,undefined,Brand Cushions,1.000
+subsubcategory,undefined,Butterscotch Cakes,1.000
+subsubcategory,undefined,Cadbury Chocolates,1.000
+subsubcategory,undefined,Cake Combos,1.000
+subsubcategory,undefined,Cakes And Flowers,1.000
+subsubcategory,undefined,Cakes and Chocolates,1.000
+subsubcategory,undefined,Cakes and Teddies,1.000
+subsubcategory,undefined,Cartoon Cakes,1.000
+subsubcategory,undefined,Chocolate Cakes,1.000
+subsubcategory,undefined,Chocolates and Flowers,1.000
+subsubcategory,undefined,Chocolates and Sweets,1.000
+subsubcategory,undefined,Coconut Barfi,1.000
+subsubcategory,undefined,Coffee Cakes,1.000
+subsubcategory,undefined,Color 1,1.000
+subsubcategory,undefined,Color 2,1.000
+subsubcategory,undefined,Color 3,1.000
+subsubcategory,undefined,Color 4,1.000
+subsubcategory,undefined,Color 5,1.000
+subsubcategory,undefined,Combo 1,1.000
+subsubcategory,undefined,Combo 2,1.000
+subsubcategory,undefined,Combo 3,1.000
+subsubcategory,undefined,Combo 4,1.000
+subsubcategory,undefined,Combo 5,1.000
+subsubcategory,undefined,Combos and Chocolates,1.000
+subsubcategory,undefined,Combos and Flowers,1.000
+subsubcategory,undefined,CupCakes,1.000
+subsubcategory,undefined,Dark Chocolates,1.000
+subsubcategory,undefined,Designer Bouquets,1.000
+subsubcategory,undefined,Designer Cakes,1.000
+subsubcategory,undefined,Dry Cakes,1.000
+subsubcategory,undefined,Dry Fruits and Chocolates,1.000
+subsubcategory,undefined,Dry Fruits and Flowers,1.000
+subsubcategory,undefined,Eggless Cakes,1.000
+subsubcategory,undefined,Fastrack Watches,1.000
+subsubcategory,undefined,Festival Sweets,1.000
+subsubcategory,undefined,First Anniversary Cakes,1.000
+subsubcategory,undefined,First Birthday Cakes,1.000
+subsubcategory,undefined,Flavor 1,1.000
+subsubcategory,undefined,Flavor 2,1.000
+subsubcategory,undefined,Flavor 3,1.000
+subsubcategory,undefined,Flavor 4,1.000
+subsubcategory,undefined,Flavor 5,1.000
+subsubcategory,undefined,Cakes And Flowers,1.000
+subsubcategory,undefined,Chocolates and Flowers,1.000
+subsubcategory,undefined,Fondant Cakes,1.000
+subsubcategory,undefined,Friendship Gifts,1.000
+subsubcategory,undefined,Fruit Cakes,1.000
+subsubcategory,undefined,Gift Combos,1.000
+subsubcategory,undefined,Gifts and Chocolates,1.000
+subsubcategory,undefined,Gifts and Flowers,1.000
+subsubcategory,undefined,Haldiram Almonds,1.000
+subsubcategory,undefined,Half Cakes,1.000
+subsubcategory,undefined,Heart Shape Cakes,1.000
+subsubcategory,undefined,Helium Balloons,1.000
+subsubcategory,undefined,Indoor Plants,1.000
+subsubcategory,undefined,Jar Cakes,1.000
+subsubcategory,undefined,Kids Cakes,1.000
+subsubcategory,undefined,Kitkat Cakes,1.000
+subsubcategory,undefined,Lily Bouquets,1.000
+subsubcategory,undefined,Mango Barfi,1.000
+subsubcategory,undefined,Midnight Cakes,1.000
+subsubcategory,undefined,Motichoor Ladoo,1.000
+subsubcategory,undefined,Occasion 1,1.000
+subsubcategory,undefined,Occasion 2,1.000
+subsubcategory,undefined,Occasion 3,1.000
+subsubcategory,undefined,Occasion 4,1.000
+subsubcategory,undefined,Occasion 5,1.000
+subsubcategory,undefined,Occasion Combos,1.000
+subsubcategory,undefined,Occasion Cushions,1.000
+subsubcategory,undefined,Orchid Bouquets,1.000
+subsubcategory,undefined,Outdoor Plants,1.000
+subsubcategory,undefined,Pastry,1.000
+subsubcategory,undefined,Personalized Cushions,1.000
+subsubcategory,undefined,Personalized Mugs,1.000
+subsubcategory,undefined,Personalized and Chocolates,1.000
+subsubcategory,undefined,Personalized and Flowers,1.000
+subsubcategory,undefined,Photo Cakes,1.000
+subsubcategory,undefined,Photo Frames,1.000
+subsubcategory,undefined,Pineapple Cakes,1.000
+subsubcategory,undefined,Plants and Chocolates,1.000
+subsubcategory,undefined,Plants and Flowers,1.000
+subsubcategory,undefined,Rasmalai Cakes,1.000
+subsubcategory,undefined,Red Balloons,1.000
+subsubcategory,undefined,Red Flowers,1.000
+subsubcategory,undefined,Red Velvet Cakes,1.000
+subsubcategory,undefined,Romantic Gifts,1.000
+subsubcategory,undefined,Rose Bouquets,1.000
+subsubcategory,undefined,Spiderman Cakes,1.000
+subsubcategory,undefined,Succulent Plants,1.000
+subsubcategory,undefined,Chocolates and Sweets,1.000
+subsubcategory,undefined,Sweets and Flowers,1.000
+subsubcategory,undefined,Theme 1,1.000
+subsubcategory,undefined,Theme 2,1.000
+subsubcategory,undefined,Theme 3,1.000
+subsubcategory,undefined,Theme 4,1.000
+subsubcategory,undefined,Theme 5,1.000
+subsubcategory,undefined,Theme Balloons,1.000
+subsubcategory,undefined,Theme Bouquets,1.000
+subsubcategory,undefined,Theme Chocolates,1.000
+subsubcategory,undefined,Theme Combos,1.000
+subsubcategory,undefined,Theme Cushions,1.000
+subsubcategory,undefined,Theme Dry Fruits,1.000
+subsubcategory,undefined,Theme Plants,1.000
+subsubcategory,undefined,Tier Cakes,1.000
+subsubcategory,undefined,Titan Watches,1.000
+subsubcategory,undefined,Truffle Cakes,1.000
+subsubcategory,undefined,Type 1,1.000
+subsubcategory,undefined,Type 2,1.000
+subsubcategory,undefined,Type 3,1.000
+subsubcategory,undefined,Type 4,1.000
+subsubcategory,undefined,Type 5,1.000
+subsubcategory,undefined,Unicorn Cakes,1.000
+subsubcategory,undefined,Vanilla Cakes,1.000
+subsubcategory,undefined,Variety 1,1.000
+subsubcategory,undefined,Variety 2,1.000
+subsubcategory,undefined,Variety 3,1.000
+subsubcategory,undefined,Variety 4,1.000
+subsubcategory,undefined,Variety 5,1.000
+subsubcategory,undefined,White Flowers,1.000
+subsubcategory,undefined,Yellow Flowers,1.000

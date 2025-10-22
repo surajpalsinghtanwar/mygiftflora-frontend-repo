@@ -1,0 +1,10 @@
+{
+  "totalRows": 2880,
+  "distinctCounts": {
+    "categories": 10,
+    "subcategories": 50,
+    "subsubcategories": 150
+  },
+  "suggestionsWritten": 210,
+  "note": "Suggested canonical mappings created. Review name-to-id-suggested-mapping.csv and update mapping template or provide API creds to fetch IDs."
+}

@@ -1,5 +1,6 @@
 import AdminLayout from '../../../layouts/AdminLayout';
 import { useState, useEffect } from 'react';
+import { FaToggleOn, FaToggleOff, FaTrash, FaEdit } from 'react-icons/fa';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
 
@@ -83,6 +84,31 @@ export default function SubSubcategories() {
     }
   };
 
+  const handleToggleStatus = async (id: string, newStatus: boolean) => {
+    try {
+      const token = localStorage.getItem('access_token');
+      const response = await fetch(`http://localhost:8000/api/admin/subsubcategory/status/${id}`, {
+        method: 'PUT',
+        mode: 'cors',
+        credentials: 'include',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({ status: newStatus }),
+      });
+      if (response.ok) {
+        toast.success('SubSubcategory status updated');
+        fetchSubSubcategories();
+      } else {
+        toast.error('Failed to update status');
+      }
+    } catch (error) {
+      toast.error('Error updating status');
+    }
+  };
+
   return (
     <AdminLayout>
       <div className="container-fluid">
@@ -149,15 +175,27 @@ export default function SubSubcategories() {
                           </td>
                           <td>{new Date(subsubcategory.created_at).toLocaleDateString()}</td>
                           <td>
-                            <div className="btn-group btn-group-sm">
-                              <Link href={`/admin/inventory/subsubcategories/edit/${subsubcategory.id}`} className="btn btn-outline-primary">
-                                <i className="bi bi-pencil"></i>
+                            <div className="d-flex gap-2">
+                              <Link href={`/admin/inventory/subsubcategories/edit/${subsubcategory.id}`} className="btn btn-outline-primary btn-sm">
+                                <FaEdit />
                               </Link>
+                              <button
+                                type="button"
+                                title="Toggle Status"
+                                className="btn btn-outline-warning btn-sm"
+                                onClick={() => handleToggleStatus(subsubcategory.id, !subsubcategory.status)}
+                              >
+                                {subsubcategory.status ? (
+                                  <FaToggleOn style={{ color: 'green' }} />
+                                ) : (
+                                  <FaToggleOff style={{ color: 'red' }} />
+                                )}
+                              </button>
                               <button 
                                 onClick={() => handleDeleteSubSubcategory(subsubcategory.id)}
-                                className="btn btn-outline-danger"
+                                className="btn btn-outline-danger btn-sm"
                               >
-                                <i className="bi bi-trash"></i>
+                               <FaTrash />
                               </button>
                             </div>
                           </td>

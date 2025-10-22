@@ -1,0 +1,9 @@
+{
+  "csv": "src\\data\\products.trimmed.csv",
+  "rows": 347,
+  "mainImagesReferenced": 347,
+  "galleryImagesReferenced": 694,
+  "mainMissing": [],
+  "galleryMissing": [],
+  "timestamp": "2025-10-16T05:24:59.387Z"
+}

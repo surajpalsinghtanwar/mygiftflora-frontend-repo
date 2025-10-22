@@ -59,7 +59,7 @@ const Categories: React.FC = () => {
                     <tr key={cat.id}>
                       <td>
                         {cat.banner ? (
-                          <img src={getUploadUrl('categories', cat.banner)} alt={cat.name} style={{ width: 40, height: 40, objectFit: 'cover', borderRadius: 4 }} />
+                            <img src={getUploadUrl(String(cat.banner))} alt={cat.name} style={{ width: 40, height: 40, objectFit: 'cover', borderRadius: 4 }} />
                         ) : (
                           <span className="text-muted">No image</span>
                         )}

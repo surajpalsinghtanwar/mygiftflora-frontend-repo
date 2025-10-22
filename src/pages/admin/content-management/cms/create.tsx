@@ -669,7 +669,7 @@ const CreateCmsPage: React.FC = () => {
                 </div>
                 <div>
                   <strong>Status:</strong> 
-                  <span className={`badge ms-1 ${formData.isPublished ? 'bg-success' : 'bg-warning'}`}>
+                  <span className={`badge ms-1 ${formData.isPublished ? 'bg-success' : 'bg-dark text-white'}`}>
                     {formData.isPublished ? 'Published' : 'Draft'}
                   </span>
                 </div>

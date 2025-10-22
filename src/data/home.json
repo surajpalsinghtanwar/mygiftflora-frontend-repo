@@ -1,0 +1,179 @@
+{
+  "success": true,
+  "message": "Home page data fetched successful",
+  "data": {
+    "sliders": [
+      {
+        "id": "1",
+        "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80",
+        "title": "Fresh Cakes Delivered Daily",
+        "subtitle": "Delicious cakes made with love for every special occasion",
+        "description": "Order fresh, handcrafted cakes and get them delivered the same day. Perfect for birthdays, anniversaries, and celebrations.",
+        "link": "/products/cakes/birthday",
+        "buttonText": "Order Cakes Now",
+        "backgroundColor": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "textColor": "white"
+      },
+      {
+        "id": "2",
+        "imageUrl": "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "title": "Beautiful Flowers for Every Moment",
+        "subtitle": "Express your feelings with our stunning flower arrangements",
+        "description": "From romantic roses to cheerful sunflowers, find the perfect bouquet for any occasion. Fresh flowers delivered with care.",
+        "link": "/products/flowers/bouquets",
+        "buttonText": "Shop Flowers",
+        "backgroundColor": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+        "textColor": "white"
+      },
+      {
+        "id": "3",
+        "imageUrl": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+        "title": "Thoughtful Gifts That Matter",
+        "subtitle": "Personalized gifts to make every moment special",
+        "description": "Discover unique and personalized gifts that show you care. From custom photo frames to premium gift hampers.",
+        "link": "/products/gifts/personalised",
+        "buttonText": "Explore Gifts",
+        "backgroundColor": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+        "textColor": "white"
+      },
+      {
+        "id": "4",
+        "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "title": "Premium Plant Collection",
+        "subtitle": "Bring nature home with our beautiful plants",
+        "description": "Transform your space with our collection of indoor and outdoor plants. Perfect for home decor and gifting.",
+        "link": "/products/plants/indoor",
+        "buttonText": "Shop Plants",
+        "backgroundColor": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+        "textColor": "white"
+      },
+      {
+        "id": "5",
+        "imageUrl": "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
+        "title": "Special Combo Offers",
+        "subtitle": "Complete celebration packages at amazing prices",
+        "description": "Get the best value with our combo offers. Cakes + Flowers + Gifts in one beautiful package for your loved ones.",
+        "link": "/products/combos/cake-flowers",
+        "buttonText": "View Combos",
+        "backgroundColor": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+        "textColor": "white"
+      }
+    ],
+    "featuredCategories": [
+      {
+        "id": "cat1",
+        "name": "Birthday Cakes",
+        "imageUrl": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "cakes/birthday"
+      },
+      {
+        "id": "cat2",
+        "name": "Red Roses",
+        "imageUrl": "https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "flowers/roses"
+      },
+      {
+        "id": "cat3",
+        "name": "Photo Gifts",
+        "imageUrl": "https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "gifts/photo"
+      },
+      {
+        "id": "cat4",
+        "name": "Chocolates",
+        "imageUrl": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "chocolates"
+      },
+      {
+        "id": "cat5",
+        "name": "Indoor Plants",
+        "imageUrl": "https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "slug": "plants/indoor"
+      }
+    ],
+    "newArrivals": [
+      {
+        "id": "product-new1",
+        "name": "Chocolate Truffle Cake",
+        "slug": "chocolate-truffle-cake",
+        "imageUrl": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 899,
+        "originalPrice": 1299
+      },
+      {
+        "id": "product-new2",
+        "name": "Pink Rose Bouquet",
+        "slug": "pink-rose-bouquet",
+        "imageUrl": "https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 649,
+        "originalPrice": 899
+      },
+      {
+        "id": "product-new3",
+        "name": "Personalized Mug",
+        "slug": "personalized-mug",
+        "imageUrl": "https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 399,
+        "originalPrice": 599
+      },
+      {
+        "id": "product-new4",
+        "name": "Succulent Plant Set",
+        "slug": "succulent-plant-set",
+        "imageUrl": "https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 799,
+        "originalPrice": 1199
+      }
+    ],
+    "featuredProducts": [
+      {
+        "id": "product-feat1",
+        "name": "Vanilla Strawberry Cake",
+        "slug": "vanilla-strawberry-cake",
+        "imageUrl": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 1299,
+        "originalPrice": 1599
+      },
+      {
+        "id": "product-feat2",
+        "name": "Mixed Flower Basket",
+        "slug": "mixed-flower-basket",
+        "imageUrl": "https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 999,
+        "originalPrice": 1399
+      },
+      {
+        "id": "product-feat3",
+        "name": "Chocolate Gift Hamper",
+        "slug": "chocolate-gift-hamper",
+        "imageUrl": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 1599,
+        "originalPrice": 1999
+      },
+      {
+        "id": "product-feat4",
+        "name": "Photo Collage Frame",
+        "slug": "photo-collage-frame",
+        "imageUrl": "https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 699,
+        "originalPrice": 999
+      },
+      {
+        "id": "product-feat5",
+        "name": "Lucky Bamboo Plant",
+        "slug": "lucky-bamboo-plant",
+        "imageUrl": "https://images.pexels.com/photos/1084199/pexels-photo-1084199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 499,
+        "originalPrice": 699
+      },
+      {
+        "id": "product-feat6",
+        "name": "Cake & Flower Combo",
+        "slug": "cake-flower-combo",
+        "imageUrl": "https://images.pexels.com/photos/264869/pexels-photo-264869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": 1799,
+        "originalPrice": 2299
+      }
+    ]
+  }
+}

@@ -9,6 +9,9 @@ export const getApiUrl = (endpoint: string) => {
   return `${API_CONFIG.BASE_URL}${endpoint}`;
 };
 
-export const getUploadUrl = (type: 'categories' | 'subcategories' | 'products', filename: string) => {
-  return `${API_CONFIG.UPLOADS_BASE_URL}/uploads/${type}/${filename}`;
+export const getUploadUrl = (filename: string) => {
+  if (!filename) return '';
+  const trimmed = filename.trim();
+  // otherwise construct path using the type
+  return `${API_CONFIG.UPLOADS_BASE_URL}/${trimmed}`;
 };

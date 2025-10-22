@@ -1,0 +1,69 @@
+ {
+  "success":true,
+  "message":"Product list fetched successful",
+  "data":
+ {
+  "id": "prod-101",
+  "name": "Astrid Mid-Century 3-Seater Sofa",
+  "sku": "FW-MOD-045",
+  "breadcrumbs": [
+    { "label": "Home", "path": "/" },
+    { "label": "Living Room", "path": "/products/living-room" },
+    { "label": "Sofas", "path": "/products/sofas" }
+  ],
+  "images": [
+    "https://images.pexels.com/photos/4846437/pexels-photo-4846437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/4846455/pexels-photo-4846455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/5998138/pexels-photo-5998138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  ],
+  "price": 28500,
+  "originalPrice": 42000,
+  "shortDescription": "A perfect centerpiece for your living space. The Astrid sofa features a timeless mid-century design with solid wood legs and plush, durable fabric upholstery.",
+  "longDescription": "<p>Embrace classic style with the Astrid Mid-Century Sofa. Its clean lines, tufted backrest, and tapered wooden legs capture the essence of iconic mid-century modern design. Built on a sturdy, kiln-dried hardwood frame, this sofa is designed for both durability and comfort.</p><p>The high-density foam cushions provide a supportive yet comfortable seating experience, wrapped in a premium, easy-to-clean fabric. This piece is ideal for apartments, living rooms, and lounges, offering ample seating without overwhelming the space. Assembly is simple and requires no extra tools.</p>",
+  "specifications": [
+    { "name": "Dimensions", "value": "75\" W x 32\" D x 34\" H" },
+    { "name": "Frame Material", "value": "Solid Hardwood" },
+    { "name": "Upholstery", "value": "Woven Polyester Fabric" },
+    { "name": "Color", "value": "Charcoal Grey" },
+    { "name": "Leg Material", "value": "Solid Oak with Walnut Finish" },
+    { "name": "Warranty", "value": "24 Months on Frame" }
+  ],
+  "relatedProducts":[
+   
+    {
+      "id": "prod-310",
+      "name": "Eames Style Lounge Chair",
+      "image": "https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 15500,
+      "originalPrice": 25000,
+      "path": "/product/prod-310"
+    },
+    {
+      "id": "prod-415",
+      "name": "Minimalist TV Console",
+      "image": "https://images.pexels.com/photos/5778893/pexels-photo-5778893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 11200,
+      "originalPrice": 18000,
+      "path": "/product/prod-415"
+    },
+    {
+      "id": "prod-520",
+      "name": "Modern Arc Floor Lamp",
+      "image": "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 4999,
+      "originalPrice": 8500,
+      "path": "/product/prod-520"
+    },
+    {
+    "id": "prod-103",
+    "name": "Minimalist Canopy Bed",
+    "image": "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 11999,
+    "originalPrice": 14000,
+    "path": "/product/prod-103"
+  }
+  ]
+},
+"error":null
+ }

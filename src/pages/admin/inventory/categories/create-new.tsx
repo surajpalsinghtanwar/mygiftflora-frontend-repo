@@ -140,7 +140,7 @@ export default function CreateCategory() {
                     </div>
 
                     <div className="col-md-6">
-                      <label className="form-label fw-semibold">Banner Image</label>
+                      <label className="form-label fw-semibold">Banner Image <small className="text-muted ms-2" title="Recommended image size: 400×400">(Recommended: 400×400)</small></label>
                       <input
                         type="file"
                         name="banner"

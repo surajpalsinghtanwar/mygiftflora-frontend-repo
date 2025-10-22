@@ -12,9 +12,8 @@ const bootstrapIcons = [
 interface Category {
   id: string;
   name: string;
-  icon: string;
   banner?: string;
-  meta_title: string;
+  meta_keyword: string;
   meta_description: string;
   status: boolean;
 }
@@ -26,9 +25,8 @@ export default function EditCategory() {
   const [category, setCategory] = useState<Category | null>(null);
   const [form, setForm] = useState({
     name: '',
-    icon: 'bi-cake2',
     banner: null as File | null,
-    meta_title: '',
+  meta_keyword: '',
     meta_description: '',
     status: true,
   });
@@ -60,9 +58,8 @@ export default function EditCategory() {
         setCategory(categoryData);
         setForm({
           name: categoryData.name || '',
-          icon: categoryData.icon || 'bi-cake2',
           banner: null,
-          meta_title: categoryData.meta_title || '',
+          meta_keyword: categoryData.meta_keyword || '',
           meta_description: categoryData.meta_description || '',
           status: categoryData.status || true,
         });
@@ -104,8 +101,7 @@ export default function EditCategory() {
       
       const formData = new FormData();
       formData.append('name', form.name);
-      formData.append('icon', form.icon);
-      formData.append('meta_title', form.meta_title);
+  formData.append('meta_keyword', form.meta_keyword);
       formData.append('meta_description', form.meta_description);
       formData.append('status', form.status.toString());
       
@@ -185,28 +181,10 @@ export default function EditCategory() {
                       />
                     </div>
 
-                    <div className="mb-3">
-                      <label className="form-label fw-semibold">
-                        Icon <span className="text-danger">*</span>
-                      </label>
-                      <div className="d-flex flex-wrap gap-2 mb-2 p-3 border rounded">
-                        {bootstrapIcons.map((icon) => (
-                          <button
-                            key={icon}
-                            type="button"
-                            className={`btn ${form.icon === icon ? 'btn-primary' : 'btn-outline-secondary'}`}
-                            style={{ fontSize: '20px', width: '50px', height: '50px' }}
-                            onClick={() => setForm(prev => ({ ...prev, icon }))}
-                          >
-                            <i className={icon}></i>
-                          </button>
-                        ))}
-                      </div>
-                      <small className="text-muted">Selected: <i className={form.icon}></i> {form.icon}</small>
-                    </div>
+                    ...existing code...
 
                     <div className="mb-3">
-                      <label className="form-label fw-semibold">Banner Image</label>
+                      <label className="form-label fw-semibold">Banner Image <small className="text-muted ms-2" title="Recommended image size: 400×400">(Recommended: 400×400)</small></label>
                       {category.banner && (
                         <div className="mb-2">
                           <img 
@@ -231,14 +209,14 @@ export default function EditCategory() {
 
                   <div className="col-md-6">
                     <div className="mb-3">
-                      <label className="form-label fw-semibold">Meta Title</label>
+                      <label className="form-label fw-semibold">Meta Keyword</label>
                       <input
                         type="text"
-                        name="meta_title"
+                        name="meta_keyword"
                         className="form-control"
-                        value={form.meta_title}
+                        value={form.meta_keyword}
                         onChange={handleInputChange}
-                        placeholder="SEO title for this category"
+                        placeholder="SEO keyword for this category"
                       />
                       <div className="form-text">Optional: For SEO purposes</div>
                     </div>

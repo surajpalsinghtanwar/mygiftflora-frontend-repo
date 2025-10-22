@@ -10,8 +10,7 @@ export default function CreateCategory() {
   const [form, setForm] = useState({
     name: '',
     banner: null as File | null,
-    icon: 'bi-cake2',
-    meta_title: '',
+  meta_keyword: '',
     meta_description: '',
     status: true,
   });
@@ -42,8 +41,7 @@ export default function CreateCategory() {
       
       const formData = new FormData();
       formData.append('name', form.name);
-      formData.append('icon', form.icon);
-      formData.append('meta_title', form.meta_title);
+  formData.append('meta_keyword', form.meta_keyword);
       formData.append('meta_description', form.meta_description);
       formData.append('status', form.status.toString());
       
@@ -116,40 +114,10 @@ export default function CreateCategory() {
           <div className="col-md-8">
             <div className="card shadow-sm">
               <div className="card-body">
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>              
                   <div className="row g-3">
                     <div className="col-md-6">
-                      <label className="form-label fw-semibold">Category Name *</label>
-                      <input
-                        type="text"
-                        name="name"
-                        className="form-control"
-                        value={form.name}
-                        onChange={handleChange}
-                        required
-                        placeholder="e.g., Birthday Cakes, Wedding Flowers"
-                      />
-                    </div>
-                    
-                    <div className="col-md-6">
-                      <label className="form-label fw-semibold">Icon *</label>
-                      <select
-                        name="icon"
-                        className="form-select"
-                        value={form.icon}
-                        onChange={handleChange}
-                        required
-                      >
-                        {iconOptions.map(icon => (
-                          <option key={icon.value} value={icon.value}>
-                            {icon.value} {icon.label}
-                          </option>
-                        ))}
-                      </select>
-                    </div>
-                    
-                    <div className="col-md-6">
-                      <label className="form-label fw-semibold">Banner Image</label>
+                      <label className="form-label fw-semibold">Banner Image <small className="text-muted ms-2" title="Recommended image size: 400×400">(Recommended: 400×400)</small></label>
                       <input
                         type="file"
                         name="banner"
@@ -161,16 +129,29 @@ export default function CreateCategory() {
                     </div>
 
                     <div className="col-md-6">
-                      <label className="form-label fw-semibold">Meta Title</label>
+                      <label className="form-label fw-semibold">Meta Keyword</label>
                       <input
                         type="text"
-                        name="meta_title"
+                        name="meta_keyword"
                         className="form-control"
-                        value={form.meta_title}
+                        value={form.meta_keyword}
                         onChange={handleChange}
-                        placeholder="SEO title for this category"
+                        placeholder="SEO keyword for this category"
                       />
                       <div className="form-text">Optional: For SEO purposes</div>
+                    </div>
+
+                    <div className="col-md-6">
+                      <label className="form-label fw-semibold">Category Name</label>
+                      <input
+                        type="text"
+                        name="name"
+                        className="form-control"
+                        value={form.name}
+                        onChange={handleChange}
+                        placeholder="Enter category name"
+                        required
+                      />
                     </div>
 
                     <div className="col-12">

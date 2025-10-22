@@ -1,4 +1,5 @@
 import AdminLayout from '../../../layouts/AdminLayout';
+import { FaEdit, FaTrash, FaToggleOn, FaToggleOff } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
@@ -7,8 +8,7 @@ interface Category {
   id: string;
   name: string;
   banner?: string;
-  icon?: string;
-  meta_title?: string;
+  meta_keyword?: string;
   meta_description?: string;
   status: boolean;
   created_at: string;
@@ -39,7 +39,12 @@ export default function Categories() {
       
       if (response.ok) {
         // Your backend returns array directly, not wrapped in data property
-        setCategories(Array.isArray(data) ? data : data.data || []);
+        const categoriesData = Array.isArray(data) ? data : data.data || [];
+        setCategories(categoriesData);
+        
+        if (categoriesData.length > 0) {
+          toast.success(`Loaded ${categoriesData.length} categories successfully`);
+        }
       } else {
         toast.error('Failed to fetch categories');
       }
@@ -76,6 +81,31 @@ export default function Categories() {
       toast.error('Error deleting category');
     }
   };
+  
+  const handleToggleStatus = async (id: string, newStatus: boolean) => {
+    try {
+      const token = localStorage.getItem('access_token');
+      const response = await fetch(`http://localhost:8000/api/admin/category/status/${id}`, {
+        method: 'PUT',
+        mode: 'cors',
+        credentials: 'include',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({ status: newStatus }),
+      });
+      if (response.ok) {
+        toast.success('Category status updated');
+        fetchCategories();
+      } else {
+        toast.error('Failed to update status');
+      }
+    } catch (error) {
+      toast.error('Error updating status');
+    }
+  };
 
   return (
     <AdminLayout>
@@ -109,10 +139,9 @@ export default function Categories() {
                   <table className="table table-hover">
                     <thead className="table-dark">
                       <tr>
-                        <th>Icon</th>
                         <th>Name</th>
                         <th>Banner</th>
-                        <th>Meta Title</th>
+                        <th>Meta Keyword</th>
                         <th>Status</th>
                         <th>Created</th>
                         <th>Actions</th>
@@ -121,48 +150,59 @@ export default function Categories() {
                     <tbody>
                       {categories.map((category) => (
                         <tr key={category.id}>
-                          <td>
-                            {category.icon ? (
-                              <span style={{ fontSize: '1.5rem' }}>{category.icon}</span>
-                            ) : (
-                              <div className="bg-light rounded d-flex align-items-center justify-content-center" style={{ width: '40px', height: '40px' }}>
-                                🎂
-                              </div>
-                            )}
-                          </td>
                           <td className="fw-semibold">{category.name}</td>
                           <td>
                             {category.banner ? (
                               <img 
-                                src={`http://localhost:8000/uploads/categories/${category.banner}`} 
+                                src={`http://localhost:8000/${category.banner}`} 
                                 alt={category.name}
                                 style={{ width: '50px', height: '50px', objectFit: 'cover' }}
-                                className="rounded"
+                                className="rounded border"
                               />
                             ) : (
                               '-'
                             )}
                           </td>
-                          <td>{category.meta_title || '-'}</td>
+                          <td>{category.meta_keyword || '-'}</td>
                           <td>
-                            <span className={`badge ${category.status ? 'bg-success' : 'bg-secondary'}`}>
-                              {category.status ? 'Active' : 'Inactive'}
-                            </span>
+                              <span className={`badge ${category.status ? 'bg-success' : 'bg-danger'}`}> 
+                                {category.status ? 'Active' : 'Inactive'}
+                              </span>
                           </td>
                           <td>{new Date(category.created_at).toLocaleDateString()}</td>
                           <td>
-                            <div className="btn-group btn-group-sm">
-                              <Link href={`/admin/inventory/categories/edit/${category.id}`} className="btn btn-outline-primary">
-                                <i className="bi bi-pencil"></i>
-                              </Link>
-                              <button 
-                                onClick={() => handleDeleteCategory(category.id)}
-                                className="btn btn-outline-danger"
+                            <div className="d-flex gap-2">
+                              <button
+                                type="button"
+                                title="Edit"
+                                className="btn btn-outline-primary btn-sm"
+                                onClick={() => window.location.href = `/admin/inventory/categories/edit/${category.id}`}
                               >
-                                <i className="bi bi-trash"></i>
+                                <FaEdit />
+                              </button>
+                              <button
+                                type="button"
+                                title="Toggle Status"
+                                className="btn btn-outline-warning btn-sm"
+                                onClick={() => handleToggleStatus(category.id, !category.status)}
+                              >
+                                {category.status ? (
+                                  <FaToggleOn style={{ color: 'green' }} />
+                                ) : (
+                                  <FaToggleOff style={{ color: 'red' }} />
+                                )}
+                              </button>
+                              <button
+                                type="button"
+                                title="Delete"
+                                className="btn btn-outline-danger btn-sm"
+                                onClick={() => handleDeleteCategory(category.id)}
+                              >
+                                <FaTrash />
                               </button>
                             </div>
                           </td>
+
                         </tr>
                       ))}
                     </tbody>

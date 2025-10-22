@@ -1,0 +1,98 @@
+{
+  "success":true,
+  "message":"Product list fetched successful",
+  "data":[
+
+    {
+      "id": "prod-310",
+      "name": "Eames Style Lounge Chair",
+      "image": "https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 15500,
+      "originalPrice": 25000,
+      "path": "/product/prod-310"
+    },
+    {
+      "id": "prod-415",
+      "name": "Minimalist TV Console",
+      "image": "https://images.pexels.com/photos/5778893/pexels-photo-5778893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 11200,
+      "originalPrice": 18000,
+      "path": "/product/prod-415"
+    },
+    {
+      "id": "prod-520",
+      "name": "Modern Arc Floor Lamp",
+      "image": "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 4999,
+      "originalPrice": 8500,
+      "path": "/product/prod-520"
+    },
+     {
+    "id": "prod-101",
+    "name": "Plush Velvet Sofa",
+    "image": "https://images.pexels.com/photos/6902996/pexels-photo-6902996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 12999,
+    "originalPrice": 15999,
+    "path": "/product/prod-101"
+  },
+  {
+    "id": "prod-102",
+    "name": "Oak Wood Dining Table",
+    "image": "https://images.pexels.com/photos/2082092/pexels-photo-2082092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 8999,
+    "originalPrice": 11500,
+    "path": "/product/prod-102"
+  },
+  {
+    "id": "prod-103",
+    "name": "Minimalist Canopy Bed",
+    "image": "https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 11999,
+    "originalPrice": 14000,
+    "path": "/product/prod-103"
+  },
+  {
+    "id": "prod-104",
+    "name": "Ergonomic Mesh Office Chair",
+    "image": "https://images.pexels.com/photos/7243171/pexels-photo-7243171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 3499,
+    "originalPrice": 4500,
+    "path": "/product/prod-104"
+  },
+  {
+    "id": "prod-107",
+    "name": "Round Marble Coffee Table",
+    "image": "https://images.pexels.com/photos/5417621/pexels-photo-5417621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 6999,
+    "originalPrice": 9000,
+    "path": "/product/prod-107"
+  },
+  {
+    "id": "prod-108",
+    "name": "Walnut Wood Sideboard",
+    "image": "https://images.pexels.com/photos/6488950/pexels-photo-6488950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 7499,
+    "originalPrice": 9800,
+    "path": "/product/prod-108"
+  },
+  {
+    "id": "prod-109",
+    "name": "Floating Media Console",
+    "image": "https://images.pexels.com/photos/5717462/pexels-photo-5717462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 4899,
+    "originalPrice": 6000,
+    "path": "/product/prod-109"
+  },
+  {
+    "id": "prod-110",
+    "name": "Rattan Bedside Table",
+    "image": "https://images.pexels.com/photos/10375924/pexels-photo-10375924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 2299,
+    "originalPrice": 3000,
+    "path": "/product/prod-110"
+  }
+    
+  ],
+  
+  "error":null
+}

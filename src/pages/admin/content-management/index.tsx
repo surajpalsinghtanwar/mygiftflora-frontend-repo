@@ -111,7 +111,7 @@ const ContentManagementIndex: React.FC = () => {
                   ❓ Create FAQ
                 </button>
                 <button 
-                  className="btn btn-warning"
+                  className="btn btn-dark"
                   onClick={() => router.push('/admin/content-management/cms/create')}
                 >
                   🔒 Create Privacy Policy

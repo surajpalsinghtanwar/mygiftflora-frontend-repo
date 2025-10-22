@@ -400,7 +400,7 @@ const EditCmsPage: React.FC = () => {
                 </div>
                 <div className="mb-2">
                   <strong>Current Status:</strong> 
-                  <span className={`badge ms-1 ${currentPage?.isPublished ? 'bg-success' : 'bg-warning'}`}>
+                  <span className={`badge ms-1 ${currentPage?.isPublished ? 'bg-success' : 'bg-dark text-white'}`}>
                     {currentPage?.isPublished ? 'Published' : 'Draft'}
                   </span>
                 </div>
@@ -465,7 +465,7 @@ const EditCmsPage: React.FC = () => {
                 </div>
                 <div>
                   <strong>Status:</strong> 
-                  <span className={`badge ms-1 ${formData.isPublished ? 'bg-success' : 'bg-warning'}`}>
+                  <span className={`badge ms-1 ${formData.isPublished ? 'bg-success' : 'bg-dark text-white'}`}>
                     {formData.isPublished ? 'Published' : 'Draft'}
                   </span>
                 </div>

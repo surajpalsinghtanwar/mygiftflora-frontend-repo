@@ -1,0 +1,12 @@
+{
+  "csvPath": "src\\data\\products.trimmed.csv",
+  "xlsxPath": "src\\data\\products.xlsx",
+  "csvRows": 347,
+  "xlsxRows": 347,
+  "headerDiff": {
+    "inCsvNotXlsx": [],
+    "inXlsxNotCsv": []
+  },
+  "sampleMismatches": [],
+  "timestamp": "2025-10-16T05:23:24.154Z"
+}

@@ -1,0 +1,552 @@
+{
+  "products": [
+    {
+      "id": "cake_001",
+      "name": "Royal Designer Wedding Cake",
+      "slug": "royal-designer-wedding-cake",
+      "category": "cakes",
+      "subcategory": "by-type",
+      "subsubcategory": "designer",
+      "price": 2999,
+      "originalPrice": 3999,
+      "rating": 4.9,
+      "reviews": 156,
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=500&h=500&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=500&h=500&fit=crop"
+      ],
+      "description": "Exquisite 3-tier designer wedding cake with intricate fondant work and edible gold details. Perfect for your special day.",
+      "inStock": true,
+      "stockCount": 5,
+      "features": ["3-tier design", "Fondant decoration", "Edible gold details", "Custom message", "Free delivery"],
+      "weight": "3 Kg",
+      "serves": "25-30 people",
+      "badges": ["Premium", "Wedding Special"],
+      "sizeOptions": [
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-10 people",
+          "price": 1499,
+          "originalPrice": 1999,
+          "isDefault": false
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "15-20 people",
+          "price": 2299,
+          "originalPrice": 2999,
+          "isDefault": false
+        },
+        {
+          "id": "size_3kg",
+          "weight": "3 Kg",
+          "serves": "25-30 people",
+          "price": 2999,
+          "originalPrice": 3999,
+          "isDefault": true
+        },
+        {
+          "id": "size_5kg",
+          "weight": "5 Kg",
+          "serves": "40-50 people",
+          "price": 4499,
+          "originalPrice": 5999,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "cake_002",
+      "name": "Unicorn Fantasy Designer Cake",
+      "slug": "unicorn-fantasy-designer-cake",
+      "category": "cakes",
+      "subcategory": "by-type",
+      "subsubcategory": "designer",
+      "price": 1899,
+      "originalPrice": 2499,
+      "rating": 4.8,
+      "reviews": 234,
+      "imageUrl": "https://images.unsplash.com/photo-1586985564150-0f83b7ff8123?q=80&w=500&h=500&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1586985564150-0f83b7ff8123?q=80&w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=500&h=500&fit=crop"
+      ],
+      "description": "Magical unicorn-themed designer cake with rainbow layers, buttercream clouds, and edible glitter horn.",
+      "inStock": true,
+      "stockCount": 8,
+      "features": ["Rainbow layers", "Unicorn design", "Edible glitter", "Buttercream decoration"],
+      "weight": "2 Kg",
+      "serves": "15-20 people",
+      "badges": ["Kids Favorite", "Designer"],
+      "sizeOptions": [
+        {
+          "id": "size_500g",
+          "weight": "500g",
+          "serves": "4-6 people",
+          "price": 899,
+          "originalPrice": 1199,
+          "isDefault": false
+        },
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-10 people",
+          "price": 1299,
+          "originalPrice": 1699,
+          "isDefault": false
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "15-20 people",
+          "price": 1899,
+          "originalPrice": 2499,
+          "isDefault": true
+        },
+        {
+          "id": "size_3kg",
+          "weight": "3 Kg",
+          "serves": "25-30 people",
+          "price": 2699,
+          "originalPrice": 3499,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "cake_003",
+      "name": "Luxury Black Forest Designer Cake",
+      "slug": "luxury-black-forest-designer-cake",
+      "category": "cakes",
+      "subcategory": "by-type",
+      "subsubcategory": "designer",
+      "price": 1699,
+      "originalPrice": 2199,
+      "rating": 4.7,
+      "reviews": 189,
+      "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=500&h=500&fit=crop",
+      "description": "Premium black forest cake with multiple layers, fresh cherries, and artistic chocolate work.",
+      "inStock": true,
+      "stockCount": 12,
+      "features": ["Multiple layers", "Fresh cherries", "Chocolate decoration", "Premium ingredients"],
+      "weight": "1.5 Kg",
+      "serves": "12-15 people",
+      "badges": ["Premium", "Chocolate Lover"],
+      "sizeOptions": [
+        {
+          "id": "size_500g",
+          "weight": "500g",
+          "serves": "4-6 people",
+          "price": 699,
+          "originalPrice": 899,
+          "isDefault": false
+        },
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-10 people",
+          "price": 1199,
+          "originalPrice": 1499,
+          "isDefault": false
+        },
+        {
+          "id": "size_1_5kg",
+          "weight": "1.5 Kg",
+          "serves": "12-15 people",
+          "price": 1699,
+          "originalPrice": 2199,
+          "isDefault": true
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "16-20 people",
+          "price": 2199,
+          "originalPrice": 2799,
+          "isDefault": false
+        },
+        {
+          "id": "size_3kg",
+          "weight": "3 Kg",
+          "serves": "25-30 people",
+          "price": 3199,
+          "originalPrice": 3999,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "cake_004",
+      "name": "Photo Print Designer Cake",
+      "slug": "photo-print-designer-cake",
+      "category": "cakes",
+      "subcategory": "by-type",
+      "subsubcategory": "photo",
+      "price": 1299,
+      "originalPrice": 1699,
+      "rating": 4.6,
+      "reviews": 312,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=500&h=500&fit=crop",
+      "description": "Personalized photo cake with high-quality edible print. Upload your favorite photo for a special touch.",
+      "inStock": true,
+      "stockCount": 15,
+      "features": ["Edible photo print", "Custom message", "Multiple flavors", "Same day delivery"],
+      "weight": "1 Kg",
+      "serves": "8-12 people",
+      "badges": ["Personalized", "Popular"],
+      "sizeOptions": [
+        {
+          "id": "size_500g",
+          "weight": "500g",
+          "serves": "4-6 people",
+          "price": 799,
+          "originalPrice": 999,
+          "isDefault": false
+        },
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-12 people",
+          "price": 1299,
+          "originalPrice": 1699,
+          "isDefault": true
+        },
+        {
+          "id": "size_1_5kg",
+          "weight": "1.5 Kg",
+          "serves": "12-16 people",
+          "price": 1799,
+          "originalPrice": 2299,
+          "isDefault": false
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "16-20 people",
+          "price": 2299,
+          "originalPrice": 2899,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "cake_005",
+      "name": "Birthday Celebration Chocolate Cake",
+      "slug": "birthday-celebration-chocolate-cake",
+      "category": "cakes",
+      "subcategory": "by-occasion",
+      "subsubcategory": "birthday",
+      "price": 899,
+      "originalPrice": 1199,
+      "rating": 4.8,
+      "reviews": 456,
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=500&h=500&fit=crop",
+      "description": "Classic chocolate birthday cake with rich chocolate ganache and colorful decorations.",
+      "inStock": true,
+      "stockCount": 25,
+      "features": ["Rich chocolate flavor", "Colorful decorations", "Birthday candles included", "Fresh ingredients"],
+      "weight": "1 Kg",
+      "serves": "8-10 people",
+      "badges": ["Birthday Special", "Bestseller"],
+      "sizeOptions": [
+        {
+          "id": "size_500g",
+          "weight": "500g",
+          "serves": "4-6 people",
+          "price": 549,
+          "originalPrice": 699,
+          "isDefault": false
+        },
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-10 people",
+          "price": 899,
+          "originalPrice": 1199,
+          "isDefault": true
+        },
+        {
+          "id": "size_1_5kg",
+          "weight": "1.5 Kg",
+          "serves": "12-15 people",
+          "price": 1299,
+          "originalPrice": 1699,
+          "isDefault": false
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "16-20 people",
+          "price": 1699,
+          "originalPrice": 2199,
+          "isDefault": false
+        },
+        {
+          "id": "size_3kg",
+          "weight": "3 Kg",
+          "serves": "25-30 people",
+          "price": 2399,
+          "originalPrice": 2999,
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "id": "flower_001",
+      "name": "Premium Pink Rose Bouquet",
+      "slug": "premium-pink-rose-bouquet",
+      "category": "flowers",
+      "subcategory": "by-color",
+      "subsubcategory": "pink",
+      "price": 899,
+      "originalPrice": 1199,
+      "rating": 4.9,
+      "reviews": 234,
+      "imageUrl": "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?q=80&w=500&h=500&fit=crop",
+      "description": "Elegant bouquet of 24 premium pink roses with baby's breath and eucalyptus leaves.",
+      "inStock": true,
+      "stockCount": 18,
+      "features": ["24 premium roses", "Fresh baby's breath", "Elegant wrapping", "Same day delivery"],
+      "badges": ["Premium", "Valentine Special"]
+    },
+    {
+      "id": "flower_002",
+      "name": "Red Rose Heart Arrangement",
+      "slug": "red-rose-heart-arrangement",
+      "category": "flowers",
+      "subcategory": "by-color",
+      "subsubcategory": "red",
+      "price": 1299,
+      "originalPrice": 1699,
+      "rating": 4.8,
+      "reviews": 189,
+      "imageUrl": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?q=80&w=500&h=500&fit=crop",
+      "description": "Beautiful heart-shaped arrangement of 36 red roses, perfect for expressing love.",
+      "inStock": true,
+      "stockCount": 12,
+      "features": ["36 red roses", "Heart arrangement", "Premium packaging", "Love message card"],
+      "badges": ["Romance", "Premium"]
+    },
+    {
+      "id": "flower_003",
+      "name": "Mixed Lily Bouquet",
+      "slug": "mixed-lily-bouquet",
+      "category": "flowers",
+      "subcategory": "by-type",
+      "subsubcategory": "lilies",
+      "price": 799,
+      "originalPrice": 999,
+      "rating": 4.7,
+      "reviews": 156,
+      "imageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=500&h=500&fit=crop",
+      "description": "Stunning mixed lily bouquet with white and pink lilies, perfect for any occasion.",
+      "inStock": true,
+      "stockCount": 20,
+      "features": ["Mixed lily varieties", "Fresh greenery", "Elegant presentation", "Long lasting"],
+      "badges": ["Fresh", "Popular"]
+    },
+    {
+      "id": "gift_001",
+      "name": "Personalized Photo Frame with LED",
+      "slug": "personalized-photo-frame-led",
+      "category": "gifts",
+      "subcategory": "personalised",
+      "subsubcategory": "photo",
+      "price": 699,
+      "originalPrice": 999,
+      "rating": 4.6,
+      "reviews": 167,
+      "imageUrl": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=500&h=500&fit=crop",
+      "description": "Beautiful LED-lit photo frame with your custom photo and message engraving.",
+      "inStock": true,
+      "stockCount": 30,
+      "features": ["LED lighting", "Custom engraving", "Premium wood frame", "Battery included"],
+      "badges": ["Personalized", "Tech Gift"]
+    },
+    {
+      "id": "plant_001",
+      "name": "Lucky Bamboo Plant Set",
+      "slug": "lucky-bamboo-plant-set",
+      "category": "plants",
+      "subcategory": "by-type",
+      "subsubcategory": "indoor",
+      "price": 399,
+      "originalPrice": 599,
+      "rating": 4.5,
+      "reviews": 234,
+      "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=500&h=500&fit=crop",
+      "description": "Set of 3 lucky bamboo plants in decorative ceramic pots, perfect for home or office.",
+      "inStock": true,
+      "stockCount": 45,
+      "features": ["Set of 3 plants", "Ceramic pots", "Low maintenance", "Good luck symbol"],
+      "badges": ["Lucky", "Indoor"]
+    },
+    {
+      "id": "chocolate_001",
+      "name": "Premium Dark Chocolate Box",
+      "slug": "premium-dark-chocolate-box",
+      "category": "chocolates",
+      "subcategory": "types",
+      "subsubcategory": "dark",
+      "price": 799,
+      "originalPrice": 1099,
+      "rating": 4.8,
+      "reviews": 189,
+      "imageUrl": "https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=500&h=500&fit=crop",
+      "description": "Assorted premium dark chocolate collection with 70% cocoa content.",
+      "inStock": true,
+      "stockCount": 25,
+      "features": ["70% cocoa", "Assorted flavors", "Premium packaging", "Gift box included"],
+      "badges": ["Premium", "Dark"]
+    },
+    {
+      "id": "combo_001",
+      "name": "Chocolate Cake & Red Roses Combo",
+      "slug": "chocolate-cake-red-roses-combo",
+      "category": "combos",
+      "subcategory": "cake",
+      "subsubcategory": "cake-flowers",
+      "price": 1499,
+      "originalPrice": 1999,
+      "rating": 4.9,
+      "reviews": 278,
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=500&h=500&fit=crop",
+      "description": "Perfect combo of 1kg chocolate cake with 12 red roses bouquet for special celebrations.",
+      "inStock": true,
+      "stockCount": 15,
+      "features": ["1kg chocolate cake", "12 red roses", "Combined delivery", "Greeting card"],
+      "badges": ["Combo Deal", "Popular"]
+    },
+    {
+      "id": "gift_001",
+      "name": "Personalized Photo Mug",
+      "slug": "personalized-photo-mug",
+      "category": "gifts",
+      "subcategory": "personalized",
+      "subsubcategory": "mugs",
+      "price": 399,
+      "originalPrice": 599,
+      "rating": 4.7,
+      "reviews": 542,
+      "imageUrl": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=500&h=500&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=500&h=500&fit=crop"
+      ],
+      "description": "High-quality ceramic mug with your custom photo printed with premium technology. Perfect for gifts and daily use.",
+      "inStock": true,
+      "stockCount": 50,
+      "features": ["High-quality ceramic", "Dishwasher safe", "Vibrant photo printing", "Gift box included"],
+      "badges": ["Personalized", "Best Seller"],
+      "personalization": {
+        "type": "both",
+        "messageLabel": "Custom Text",
+        "imageLabel": "Upload Your Photo",
+        "messagePlaceholder": "Enter text to be printed on mug (e.g., Dad's Coffee)",
+        "maxMessageLength": 30,
+        "imageTypes": ["image/jpeg", "image/jpg", "image/png"],
+        "required": true
+      }
+    },
+    {
+      "id": "gift_002",
+      "name": "Magic Color Changing Mug",
+      "slug": "magic-color-changing-mug",
+      "category": "gifts",
+      "subcategory": "personalized",
+      "subsubcategory": "mugs",
+      "price": 549,
+      "originalPrice": 799,
+      "rating": 4.8,
+      "reviews": 324,
+      "imageUrl": "https://images.unsplash.com/photo-1572119036845-490ea9b156be?q=80&w=500&h=500&fit=crop",
+      "description": "Amazing color-changing mug that reveals your custom photo when hot liquid is poured. Perfect surprise gift!",
+      "inStock": true,
+      "stockCount": 30,
+      "features": ["Color changing technology", "Custom photo reveal", "High-quality ceramic", "Surprise element"],
+      "badges": ["Personalized", "Magic", "Popular"],
+      "personalization": {
+        "type": "image_upload",
+        "imageLabel": "Upload Photo for Magic Reveal",
+        "imageTypes": ["image/jpeg", "image/jpg", "image/png"],
+        "required": true
+      }
+    },
+    {
+      "id": "gift_003",
+      "name": "Personalized Cushion Cover",
+      "slug": "personalized-cushion-cover",
+      "category": "gifts",
+      "subcategory": "personalized",
+      "subsubcategory": "home-decor",
+      "price": 499,
+      "originalPrice": 699,
+      "rating": 4.6,
+      "reviews": 287,
+      "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=500&h=500&fit=crop",
+      "description": "Soft, comfortable cushion cover with your custom photo and message. Perfect for home decoration and gifting.",
+      "inStock": true,
+      "stockCount": 40,
+      "features": ["Soft fabric", "Zipper closure", "Washable", "Vibrant printing"],
+      "badges": ["Personalized", "Home Decor"],
+      "personalization": {
+        "type": "both",
+        "messageLabel": "Custom Message",
+        "imageLabel": "Upload Your Photo",
+        "messagePlaceholder": "Enter your message (e.g., Home Sweet Home)",
+        "maxMessageLength": 40,
+        "imageTypes": ["image/jpeg", "image/jpg", "image/png"],
+        "required": false
+      }
+    },
+    {
+      "id": "cake_006",
+      "name": "Custom Photo Cake",
+      "slug": "custom-photo-cake",
+      "category": "cakes",
+      "subcategory": "by-type",
+      "subsubcategory": "photo",
+      "price": 1599,
+      "originalPrice": 2099,
+      "rating": 4.9,
+      "reviews": 445,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=500&h=500&fit=crop",
+      "description": "Delicious cake with your custom photo printed with edible ink and personalized message. Perfect for special occasions.",
+      "inStock": true,
+      "stockCount": 20,
+      "features": ["Edible photo printing", "Multiple flavors", "Custom message", "Same day delivery"],
+      "badges": ["Personalized", "Premium"],
+      "sizeOptions": [
+        {
+          "id": "size_1kg",
+          "weight": "1 Kg",
+          "serves": "8-10 people",
+          "price": 1599,
+          "originalPrice": 2099,
+          "isDefault": true
+        },
+        {
+          "id": "size_2kg",
+          "weight": "2 Kg",
+          "serves": "16-20 people",
+          "price": 2499,
+          "originalPrice": 3199,
+          "isDefault": false
+        }
+      ],
+      "personalization": {
+        "type": "both",
+        "messageLabel": "Cake Message",
+        "imageLabel": "Upload Photo for Cake",
+        "messagePlaceholder": "Enter message for cake (e.g., Happy Birthday!)",
+        "maxMessageLength": 50,
+        "imageTypes": ["image/jpeg", "image/jpg", "image/png"],
+        "required": true
+      }
+    }
+  ]
+}

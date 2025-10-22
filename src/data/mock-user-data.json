@@ -1,0 +1,29 @@
+{
+  "id": "usr_12345",
+  "profile": {
+    "name": "Alex Doe",
+    "email": "alex.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "bio": "Enthusiastic online shopper with a love for modern furniture and minimalist decor. Always on the lookout for the next great find.",
+    "memberSince": "2022-08-15"
+  },
+  "shippingAddress": {
+    "street": "123 Modern Lane",
+    "city": "Designville",
+    "state": "CA",
+    "zipCode": "90210",
+    "country": "USA"
+  },
+  "billingAddress": {
+    "isSameAsShipping": false,
+    "street": "456 Commerce Ave",
+    "city": "Metropolis",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "USA"
+  },
+  "preferences": {
+    "newsletter": true,
+    "smsNotifications": false
+  }
+}

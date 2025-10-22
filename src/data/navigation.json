@@ -1,0 +1,305 @@
+[
+  {
+    "label": "Home",
+    "path": "/"
+  },
+  {
+    "label": "All Products",
+    "path": "/products"
+  },
+  {
+    "label": "About",
+    "path": "/"
+  },
+  {
+    "label": "Blog",
+    "path": "/"
+  },
+  {
+    "label": "Contact",
+    "path": "/"
+  },
+  {
+    "label": "Cakes",
+    "path": "/products/cakes",
+    "subcategories": [
+      {
+        "title": "Cakes by Occasion",
+        "path": "/products/cakes/by-occasion",
+        "subSubcategories": [
+          { "label": "Birthday Cakes", "path": "/products/cakes/by-occasion/birthday" },
+          { "label": "Anniversary Cakes", "path": "/products/cakes/by-occasion/anniversary" },
+          { "label": "Wedding Cakes", "path": "/products/cakes/by-occasion/wedding" },
+          { "label": "Valentine Cakes", "path": "/products/cakes/by-occasion/valentine" },
+          { "label": "New Year Cakes", "path": "/products/cakes/by-occasion/new-year" }
+        ]
+      },
+      {
+        "title": "Cakes by Type",
+        "path": "/products/cakes/by-type",
+        "subSubcategories": [
+          { "label": "Photo Cakes", "path": "/products/cakes/by-type/photo" },
+          { "label": "Designer Cakes", "path": "/products/cakes/by-type/designer" },
+          { "label": "Theme Cakes", "path": "/products/cakes/by-type/theme" },
+          { "label": "Tier Cakes", "path": "/products/cakes/by-type/tier" },
+          { "label": "Pinata Cakes", "path": "/products/cakes/by-type/pinata" }
+        ]
+      },
+      {
+        "title": "Cakes by Flavor",
+        "path": "/products/cakes/by-flavor",
+        "subSubcategories": [
+          { "label": "Chocolate Cakes", "path": "/products/cakes/by-flavor/chocolate" },
+          { "label": "Vanilla Cakes", "path": "/products/cakes/by-flavor/vanilla" },
+          { "label": "Red Velvet Cakes", "path": "/products/cakes/by-flavor/red-velvet" },
+          { "label": "Black Forest Cakes", "path": "/products/cakes/by-flavor/black-forest" },
+          { "label": "Strawberry Cakes", "path": "/products/cakes/by-flavor/strawberry" },
+          { "label": "Butterscotch Cakes", "path": "/products/cakes/by-flavor/butterscotch" }
+        ]
+      },
+      {
+        "title": "Special Cakes",
+        "path": "/products/cakes/special",
+        "subSubcategories": [
+          { "label": "Eggless Cakes", "path": "/products/cakes/special/eggless" },
+          { "label": "Sugar Free Cakes", "path": "/products/cakes/special/sugar-free" },
+          { "label": "Unicorn Cakes", "path": "/products/cakes/special/unicorn" },
+          { "label": "Heart Shape Cakes", "path": "/products/cakes/special/heart-shape" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Flowers",
+    "path": "/products/flowers",
+    "subcategories": [
+      {
+        "title": "Flowers by Type",
+        "path": "/products/flowers/by-type",
+        "subSubcategories": [
+          { "label": "Roses", "path": "/products/flowers/by-type/roses" },
+          { "label": "Lilies", "path": "/products/flowers/by-type/lilies" },
+          { "label": "Carnations", "path": "/products/flowers/by-type/carnations" },
+          { "label": "Orchids", "path": "/products/flowers/by-type/orchids" },
+          { "label": "Gerberas", "path": "/products/flowers/by-type/gerberas" },
+          { "label": "Sunflowers", "path": "/products/flowers/by-type/sunflowers" }
+        ]
+      },
+      {
+        "title": "Flowers by Occasion",
+        "path": "/products/flowers/by-occasion",
+        "subSubcategories": [
+          { "label": "Birthday Flowers", "path": "/products/flowers/by-occasion/birthday" },
+          { "label": "Anniversary Flowers", "path": "/products/flowers/by-occasion/anniversary" },
+          { "label": "Valentine Flowers", "path": "/products/flowers/by-occasion/valentine" },
+          { "label": "Wedding Flowers", "path": "/products/flowers/by-occasion/wedding" },
+          { "label": "Sympathy Flowers", "path": "/products/flowers/by-occasion/sympathy" }
+        ]
+      },
+      {
+        "title": "Flowers by Color",
+        "path": "/products/flowers/by-color",
+        "subSubcategories": [
+          { "label": "Red Flowers", "path": "/products/flowers/by-color/red" },
+          { "label": "Pink Flowers", "path": "/products/flowers/by-color/pink" },
+          { "label": "White Flowers", "path": "/products/flowers/by-color/white" },
+          { "label": "Yellow Flowers", "path": "/products/flowers/by-color/yellow" },
+          { "label": "Purple Flowers", "path": "/products/flowers/by-color/purple" },
+          { "label": "Mixed Bouquets", "path": "/products/flowers/by-color/mixed" }
+        ]
+      },
+      {
+        "title": "Flower Arrangements",
+        "path": "/products/flowers/arrangements",
+        "subSubcategories": [
+          { "label": "Bouquets", "path": "/products/flowers/arrangements/bouquets" },
+          { "label": "Flower Baskets", "path": "/products/flowers/arrangements/baskets" },
+          { "label": "Flower Boxes", "path": "/products/flowers/arrangements/boxes" },
+          { "label": "Premium Flowers", "path": "/products/flowers/arrangements/premium" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Gifts",
+    "path": "/products/gifts",
+    "subcategories": [
+      {
+        "title": "Personalised Gifts",
+        "path": "/products/gifts/personalised",
+        "subSubcategories": [
+          { "label": "Photo Gifts", "path": "/products/gifts/personalised/photo" },
+          { "label": "Customized Mugs", "path": "/products/gifts/personalised/mugs" },
+          { "label": "Photo Frames", "path": "/products/gifts/personalised/photo-frames" },
+          { "label": "Cushions", "path": "/products/gifts/personalised/cushions" },
+          { "label": "Caricatures", "path": "/products/gifts/personalised/caricatures" },
+          { "label": "Name Gifts", "path": "/products/gifts/personalised/name-gifts" }
+        ]
+      },
+      {
+        "title": "Gifts by Occasion",
+        "path": "/products/gifts/by-occasion",
+        "subSubcategories": [
+          { "label": "Birthday Gifts", "path": "/products/gifts/by-occasion/birthday" },
+          { "label": "Anniversary Gifts", "path": "/products/gifts/by-occasion/anniversary" },
+          { "label": "Valentine Gifts", "path": "/products/gifts/by-occasion/valentine" },
+          { "label": "Mother's Day Gifts", "path": "/products/gifts/by-occasion/mothers-day" },
+          { "label": "Father's Day Gifts", "path": "/products/gifts/by-occasion/fathers-day" },
+          { "label": "Rakhi Gifts", "path": "/products/gifts/by-occasion/rakhi" }
+        ]
+      },
+      {
+        "title": "Gifts by Recipient",
+        "path": "/products/gifts/by-recipient",
+        "subSubcategories": [
+          { "label": "Gifts for Him", "path": "/products/gifts/by-recipient/for-him" },
+          { "label": "Gifts for Her", "path": "/products/gifts/by-recipient/for-her" },
+          { "label": "Kids Gifts", "path": "/products/gifts/by-recipient/kids" },
+          { "label": "Corporate Gifts", "path": "/products/gifts/by-recipient/corporate" }
+        ]
+      },
+      {
+        "title": "Gift Categories",
+        "path": "/products/gifts/categories",
+        "subSubcategories": [
+          { "label": "Home Decor", "path": "/products/gifts/categories/home-decor" },
+          { "label": "Jewelry", "path": "/products/gifts/categories/jewelry" },
+          { "label": "Perfumes", "path": "/products/gifts/categories/perfumes" },
+          { "label": "Soft Toys", "path": "/products/gifts/categories/soft-toys" },
+          { "label": "Handbags", "path": "/products/gifts/categories/handbags" },
+          { "label": "Digital Gifts", "path": "/products/gifts/categories/digital" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Plants",
+    "path": "/products/plants",
+    "subcategories": [
+      {
+        "title": "Plants by Type",
+        "path": "/products/plants/by-type",
+        "subSubcategories": [
+          { "label": "Indoor Plants", "path": "/products/plants/by-type/indoor" },
+          { "label": "Outdoor Plants", "path": "/products/plants/by-type/outdoor" },
+          { "label": "Flowering Plants", "path": "/products/plants/by-type/flowering" },
+          { "label": "Air Purifying Plants", "path": "/products/plants/by-type/air-purifying" },
+          { "label": "Succulent Plants", "path": "/products/plants/by-type/succulents" },
+          { "label": "Lucky Bamboo", "path": "/products/plants/by-type/lucky-bamboo" }
+        ]
+      },
+      {
+        "title": "Plants by Occasion",
+        "path": "/products/plants/by-occasion",
+        "subSubcategories": [
+          { "label": "Birthday Plants", "path": "/products/plants/by-occasion/birthday" },
+          { "label": "Housewarming Plants", "path": "/products/plants/by-occasion/housewarming" },
+          { "label": "Good Luck Plants", "path": "/products/plants/by-occasion/good-luck" },
+          { "label": "Anniversary Plants", "path": "/products/plants/by-occasion/anniversary" }
+        ]
+      },
+      {
+        "title": "Plants by Placement",
+        "path": "/products/plants/by-placement",
+        "subSubcategories": [
+          { "label": "Living Room Plants", "path": "/products/plants/by-placement/living-room" },
+          { "label": "Bedroom Plants", "path": "/products/plants/by-placement/bedroom" },
+          { "label": "Balcony Plants", "path": "/products/plants/by-placement/balcony" },
+          { "label": "Office Plants", "path": "/products/plants/by-placement/office" },
+          { "label": "Terrace Plants", "path": "/products/plants/by-placement/terrace" }
+        ]
+      },
+      {
+        "title": "Special Plants",
+        "path": "/products/plants/special",
+        "subSubcategories": [
+          { "label": "Bonsai", "path": "/products/plants/special/bonsai" },
+          { "label": "Vastu Plants", "path": "/products/plants/special/vastu" },
+          { "label": "Miniature Plants", "path": "/products/plants/special/miniature" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Chocolates",
+    "path": "/products/chocolates",
+    "subcategories": [
+      {
+        "title": "Chocolate Types",
+        "path": "/products/chocolates/types",
+        "subSubcategories": [
+          { "label": "Dark Chocolate", "path": "/products/chocolates/types/dark" },
+          { "label": "Milk Chocolate", "path": "/products/chocolates/types/milk" },
+          { "label": "White Chocolate", "path": "/products/chocolates/types/white" },
+          { "label": "Fruit & Nut Chocolate", "path": "/products/chocolates/types/fruit-nut" },
+          { "label": "Sugar Free Chocolates", "path": "/products/chocolates/types/sugar-free" }
+        ]
+      },
+      {
+        "title": "Chocolate Gifts",
+        "path": "/products/chocolates/gifts",
+        "subSubcategories": [
+          { "label": "Chocolate Bouquets", "path": "/products/chocolates/gifts/bouquets" },
+          { "label": "Chocolate Hampers", "path": "/products/chocolates/gifts/hampers" },
+          { "label": "Personalized Chocolates", "path": "/products/chocolates/gifts/personalized" },
+          { "label": "Premium Chocolates", "path": "/products/chocolates/gifts/premium" }
+        ]
+      },
+      {
+        "title": "Chocolate Shapes",
+        "path": "/products/chocolates/shapes",
+        "subSubcategories": [
+          { "label": "Heart Shape Chocolates", "path": "/products/chocolates/shapes/heart-shape" },
+          { "label": "Star Shape Chocolates", "path": "/products/chocolates/shapes/star-shape" },
+          { "label": "Bunny Shape Chocolates", "path": "/products/chocolates/shapes/bunny-shape" }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Combos",
+    "path": "/products/combos",
+    "subcategories": [
+      {
+        "title": "Cake Combos",
+        "path": "/products/combos/cake",
+        "subSubcategories": [
+          { "label": "Cake & Flowers", "path": "/products/combos/cake/cake-flowers" },
+          { "label": "Cake & Chocolates", "path": "/products/combos/cake/cake-chocolates" },
+          { "label": "Cake & Teddy Bears", "path": "/products/combos/cake/cake-teddy" },
+          { "label": "Cake & Plants", "path": "/products/combos/cake/cake-plants" }
+        ]
+      },
+      {
+        "title": "Flower Combos",
+        "path": "/products/combos/flowers",
+        "subSubcategories": [
+          { "label": "Flowers & Chocolates", "path": "/products/combos/flowers/flowers-chocolates" },
+          { "label": "Flowers & Teddy Bears", "path": "/products/combos/flowers/flowers-teddy" },
+          { "label": "Flowers & Plants", "path": "/products/combos/flowers/flowers-plants" },
+          { "label": "Flowers & Gifts", "path": "/products/combos/flowers/flowers-gifts" }
+        ]
+      },
+      {
+        "title": "Gift Hampers",
+        "path": "/products/combos/hampers",
+        "subSubcategories": [
+          { "label": "Gourmet Hampers", "path": "/products/combos/hampers/gourmet" },
+          { "label": "Wellness Hampers", "path": "/products/combos/hampers/wellness" },
+          { "label": "Corporate Hampers", "path": "/products/combos/hampers/corporate" },
+          { "label": "All in One Hampers", "path": "/products/combos/hampers/all-in-one" }
+        ]
+      },
+      {
+        "title": "Special Combos",
+        "path": "/products/combos/special",
+        "subSubcategories": [
+          { "label": "Personalised Combos", "path": "/products/combos/special/personalised" },
+          { "label": "Birthday Combos", "path": "/products/combos/special/birthday" },
+          { "label": "Anniversary Combos", "path": "/products/combos/special/anniversary" },
+          { "label": "Valentine Combos", "path": "/products/combos/special/valentine" }
+        ]
+      }
+    ]
+  }
+]
